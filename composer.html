@@ -417,7 +417,7 @@
       if (window._composerData) render(window._composerData);
     });
 
-    if (!id) { showError('未指定作曲家 ID。'); return; }
+    if (!id) { showError('未指定作曲家 ID。', 'No composer ID specified.'); return; }
 
     /* ── 1. Load composer list (for prev/next) ── */
     let composerList = [];
@@ -433,7 +433,7 @@
       if (!res.ok) throw new Error(res.status);
       data = await res.json();
     } catch (e) {
-      showError('该作曲家的详细资料正在撰写中，敬请期待。');
+      showError('该作曲家的详细资料正在撰写中，敬请期待。', 'Detailed information for this composer is being prepared. Stay tuned.');
       return;
     }
 
@@ -511,9 +511,13 @@
     }
 
     /* ── Helpers ── */
-    function showError(msg) {
+    function showError(msgZh, msgEn) {
       $loading.style.display = 'none';
-      document.getElementById('error-msg').textContent = msg;
+      var $errMsg = document.getElementById('error-msg');
+      var $zh = $errMsg.querySelector('.zh');
+      var $en = $errMsg.querySelector('.en');
+      if ($zh && msgZh) $zh.textContent = msgZh;
+      if ($en && msgEn) $en.textContent = msgEn;
       $error.style.display = '';
     }
 
