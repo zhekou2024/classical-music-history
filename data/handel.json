@@ -1,0 +1,25 @@
+{
+  "id": "handel",
+  "name": "格奥尔格·弗里德里希·亨德尔",
+  "nameEn": "George Frideric Handel",
+  "years": "1685 — 1759",
+  "period": "巴洛克",
+  "periodEn": "Baroque",
+  "avatar": "H",
+  "brief": "亨德尔出生于德国哈雷，与巴赫同年出生却走上了截然不同的道路。他游历意大利学习歌剧，后定居英国伦敦，成为英国音乐生活的核心人物。亨德尔是一位精明的商人与剧院经理，他的音乐具有强烈的公共性与戏剧性。晚年双目失明后仍坚持演出与创作。他被安葬在威斯敏斯特教堂，是英国最受尊崇的作曲家之一。",
+  "briefEn": "Handel was born in Halle, Germany, the same year as Bach, yet followed a vastly different path. He traveled to Italy to study opera, then settled in London, where he became a central figure in British musical life. A shrewd businessman and theater impresario, Handel wrote music of powerful public grandeur and dramatic force. Even after going blind in his later years, he continued to perform and compose. He was buried in Westminster Abbey and remains one of the most revered composers in British history.",
+  "contribution": "亨德尔将意大利歌剧传统移植到英国，并在歌剧衰落后开创了英语清唱剧（Oratorio）这一全新体裁。《弥赛亚》成为西方音乐史上最常被演出的声乐作品之一。他的协奏大协奏曲（Concerti Grossi）为管弦乐发展提供了重要范本，其宏大的合唱写作技巧影响了海顿、莫扎特乃至贝多芬。",
+  "contributionEn": "Handel transplanted the Italian operatic tradition to England and, when opera fell out of fashion, pioneered the English-language oratorio as an entirely new genre. Messiah became one of the most frequently performed vocal works in Western music history. His Concerti Grossi provided vital models for orchestral development, and his magnificent choral writing influenced Haydn, Mozart, and Beethoven alike.",
+  "style": "亨德尔的音乐以宏伟壮丽、旋律优美著称，具有强烈的戏剧张力和叙事能力。与巴赫内省的对位风格不同，亨德尔追求的是外向的、具有公共仪式感的音乐效果。他的合唱写作气势磅礴，独唱旋律则兼具意大利式的优美与英国式的庄严。他善于用简洁有力的音乐语言直击人心。",
+  "styleEn": "Handel's music is celebrated for its grandeur, melodic beauty, and powerful dramatic narrative. Unlike Bach's introspective contrapuntal style, Handel pursued an outward, ceremonially public musical effect. His choral writing is magnificently imposing, while his solo vocal lines combine Italian lyricism with English solemnity. He excelled at striking straight to the heart with concise, forceful musical language.",
+  "famousScores": [
+    { "name": "《弥赛亚》 HWV 56", "nameEn": "Messiah, HWV 56", "desc": "清唱剧巨作，其中《哈利路亚合唱》家喻户晓", "descEn": "A towering oratorio whose Hallelujah chorus is known the world over" },
+    { "name": "《水上音乐》 HWV 348–350", "nameEn": "Water Music, HWV 348–350", "desc": "为英王乔治一世泰晤士河游船而作的管弦乐组曲", "descEn": "An orchestral suite composed for King George I's royal barge procession on the Thames" },
+    { "name": "《皇家焰火音乐》 HWV 351", "nameEn": "Music for the Royal Fireworks, HWV 351", "desc": "庆祝亚琛和约的大型户外管弦乐作品", "descEn": "A grand open-air orchestral work celebrating the Treaty of Aix-la-Chapelle" },
+    { "name": "《塞尔斯》中的广板", "nameEn": "Largo from Serse (Xerxes)", "desc": "又名「亨德尔的广板」，最广为人知的优美旋律之一", "descEn": "Known as 'Handel's Largo,' one of the most beloved melodies in all of classical music" },
+    { "name": "《所罗门》 HWV 67", "nameEn": "Solomon, HWV 67", "desc": "清唱剧，其中「示巴女王的到来」是管弦乐名段", "descEn": "An oratorio whose 'Arrival of the Queen of Sheba' is a celebrated orchestral showpiece" }
+  ],
+  "influence": "亨德尔对英国音乐传统的影响延续至今，每年的逍遥音乐会（Proms）仍以他的作品为重要曲目。海顿在伦敦听到《弥赛亚》后深受震撼，直接催生了《创世记》与《四季》。贝多芬晚年曾说「亨德尔是最伟大的作曲家」。莫扎特曾为《弥赛亚》重新配器。亨德尔将音乐从宫廷带向公众，开创了现代音乐会文化的雏形。",
+  "influenceEn": "Handel's impact on the British musical tradition endures to this day — his works remain a cornerstone of the annual Proms. Haydn was so profoundly moved upon hearing Messiah in London that it directly inspired The Creation and The Seasons. In his later years Beethoven declared Handel 'the greatest composer.' Mozart re-orchestrated Messiah out of deep admiration. By bringing music from the court to the public, Handel laid the groundwork for modern concert culture.",
+  "spotifyLink": "https://open.spotify.com/artist/1QL7yTHrdahRMpvNtn6rI2"
+}

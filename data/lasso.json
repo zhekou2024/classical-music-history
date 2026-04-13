@@ -1,0 +1,25 @@
+{
+  "id": "lasso",
+  "name": "奥兰多·迪·拉索",
+  "nameEn": "Orlando di Lasso",
+  "years": "1532 — 1594",
+  "period": "文艺复兴",
+  "periodEn": "Renaissance",
+  "avatar": "L",
+  "brief": "拉索出生于今比利时蒙斯，年少时因嗓音出众三次被人试图拐走。他游历意大利多年，在罗马、那不勒斯和米兰积累了丰富的音乐经验，后定居慕尼黑，在巴伐利亚公爵宫廷担任乐长长达三十余年。拉索是文艺复兴时期最多产的作曲家之一，创作了超过2000部作品，涵盖弥撒曲、经文歌、牧歌、法语歌曲和德语歌曲等几乎所有体裁。",
+  "briefEn": "Lasso was born in Mons in present-day Belgium and was reportedly kidnapped three times as a boy on account of his beautiful singing voice. After years of travel in Italy — gaining rich musical experience in Rome, Naples, and Milan — he settled in Munich, where he served as Kapellmeister at the Bavarian ducal court for over thirty years. One of the most prolific composers of the Renaissance, Lasso produced more than 2,000 works spanning nearly every genre: masses, motets, madrigals, French chansons, and German Lieder.",
+  "contribution": "拉索将欧洲各国的音乐风格融会贯通——意大利牧歌的抒情、法国歌曲的精致、德国利德的质朴、佛兰德复调的严密，在他的笔下浑然一体。他被视为文艺复兴复调音乐的集大成者，与帕莱斯特里纳齐名，但风格更加多元和戏剧化。他的《忏悔诗篇》将文字绘画法（Word Painting）推向了新的高度。",
+  "contributionEn": "Lasso synthesized the musical traditions of all Europe — the lyricism of the Italian madrigal, the elegance of the French chanson, the directness of the German Lied, and the rigor of Franco-Flemish counterpoint — forging them into a unified personal language. He is considered the great synthesizer of Renaissance polyphony, equal in stature to Palestrina yet more versatile and dramatic. His Penitential Psalms elevated the art of word painting to unprecedented heights.",
+  "style": "与帕莱斯特里纳的沉静内敛不同，拉索的音乐充满戏剧性与情感张力。他是文字绘画法的大师——音乐精确地描绘歌词中的每一个意象：叹息、哭泣、飞翔、坠落都能在音符中找到对应。他的和声大胆而富于色彩，节奏灵活多变，世俗作品中常带有幽默和讽刺的语气。",
+  "styleEn": "In contrast to Palestrina's serene restraint, Lasso's music brims with dramatic intensity and emotional force. He was a supreme master of word painting — his music mirrors every image in the text with uncanny precision: sighs, weeping, soaring, and falling all find vivid musical equivalents. His harmonies are bold and richly colored, his rhythms supple and varied, and his secular works often carry a tone of wit and irony.",
+  "famousScores": [
+    { "name": "《忏悔诗篇》 Psalmi Davidis poenitentiales", "nameEn": "Psalmi Davidis Poenitentiales", "desc": "七首忏悔诗篇的宏大套曲，文艺复兴宗教音乐的巅峰", "descEn": "A monumental cycle of seven penitential psalms, the pinnacle of Renaissance sacred music" },
+    { "name": "《女巫预言》 Prophetiae Sibyllarum", "nameEn": "Prophetiae Sibyllarum", "desc": "12首极端半音化经文歌，和声的大胆程度预示了杰苏阿尔多乃至20世纪音乐", "descEn": "A cycle of 12 motets in an extremely chromatic idiom — harmonies so bold they anticipate Gesualdo and even the 20th century" },
+    { "name": "《回声》 O la, o che bon eccho", "nameEn": "O la, o che bon eccho", "desc": "八声部双合唱团的回声效果作品，趣味横生", "descEn": "A delightful eight-voice double-choir piece exploiting the spatial effect of musical echoes" },
+    { "name": "《泪涌如泉》 Lagrime di San Pietro", "nameEn": "Lagrime di San Pietro", "desc": "临终绝笔，20首精神牧歌套曲，晚年最深沉的杰作", "descEn": "His final testament — a cycle of 20 spiritual madrigals and the most profoundly expressive work of his late years" },
+    { "name": "《Matona mia cara》", "nameEn": "Matona mia cara", "desc": "幽默的意大利牧歌，模仿德国士兵蹩脚的意大利语", "descEn": "A humorous Italian villanella parodying a German soldier's clumsy attempts at Italian" }
+  ],
+  "influence": "拉索的文字绘画技法直接影响了巴洛克时期的音乐修辞学传统，为蒙特威尔第等人的「第二实践」铺平了道路。他的多语言、多体裁创作展示了一种泛欧洲的音乐视野，预示了后来国际化音乐风格的到来。他晚年的《泪涌如泉》以其深沉的表现力被视为连接文艺复兴与巴洛克情感美学的桥梁之作。",
+  "influenceEn": "Lasso's word-painting techniques directly shaped the Baroque tradition of musical rhetoric, paving the way for Monteverdi and the seconda pratica. His multilingual, multi-genre output embodied a pan-European musical vision that foreshadowed the international styles to come. His late masterpiece Lagrime di San Pietro, with its profoundly expressive power, is widely regarded as a bridge between Renaissance and Baroque emotional aesthetics.",
+  "spotifyLink": "https://open.spotify.com/artist/10GoZAJyOk1jg2Q7ZeIHuU"
+}

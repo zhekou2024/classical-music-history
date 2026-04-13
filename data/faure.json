@@ -1,0 +1,25 @@
+{
+  "id": "faure",
+  "name": "加布里埃尔·福雷",
+  "nameEn": "Gabriel Fauré",
+  "years": "1845 — 1924",
+  "period": "浪漫主义→印象主义",
+  "periodEn": "Romantic → Impressionism",
+  "avatar": "F",
+  "brief": "福雷出生于法国南部阿列日省的帕米耶，九岁被送入巴黎的尼代尔梅耶教堂音乐学校，师从圣-桑斯。他在多座巴黎教堂担任管风琴师长达数十年，同时在巴黎音乐学院任教，1905年成为院长并推行了重要的教学改革。晚年严重耳聋，但仍创作了一系列深沉内省的室内乐杰作。福雷是法国音乐从浪漫主义走向现代的关键桥梁人物。",
+  "briefEn": "Faure was born in Pamiers in the Ariege department of southern France and at the age of nine was sent to the Ecole Niedermeyer in Paris, where he studied under Saint-Saens. He served as organist at several Parisian churches for decades while also teaching at the Paris Conservatoire, becoming its director in 1905 and instituting important pedagogical reforms. Profound deafness afflicted his later years, yet he continued to produce a series of deeply introspective chamber masterpieces. Faure stands as the essential bridge figure in French music between Romanticism and modernity.",
+  "contribution": "福雷在法国艺术歌曲（Mélodie）领域的贡献堪比舒伯特在德国利德中的地位。他的和声语言独树一帜——通过微妙的调式交替和出人意料的和弦连接创造出一种既不属于传统调性、也不同于德彪西印象主义的独特声音世界。作为巴黎音乐学院院长和教师，他培养了拉威尔、埃内斯库和纳迪亚·布朗热等一代大师。",
+  "contributionEn": "Faure's contribution to the French art song (melodie) rivals Schubert's stature in the German Lied. His harmonic language is wholly his own — through subtle modal interchange and unexpected chord progressions he created a unique sound world that belongs neither to conventional tonality nor to Debussyan Impressionism. As director and teacher at the Paris Conservatoire, he trained a generation of masters including Ravel, Enescu, and Nadia Boulanger.",
+  "style": "福雷的音乐以优雅含蓄、精致微妙著称。他的旋律线条悠长而流动，和声在调性的边缘游走——调式色彩（教会调式的运用）赋予音乐一种古老而神秘的气质。他从不追求外在的炫耀和戏剧性，而是在细腻的内心独白中展现深邃的情感。晚期作品更加纯粹抽象，几乎达到了一种超越性的境界。",
+  "styleEn": "Faure's music is celebrated for its elegance, restraint, and exquisite subtlety. His melodic lines are long and flowing, while his harmonies wander along the edge of tonality — modal coloring drawn from the church modes lends the music an ancient, mysterious quality. He never sought outward display or dramatic effect, choosing instead to reveal profound emotion through delicate inner monologue. His late works grow ever more pure and abstract, attaining an almost transcendent serenity.",
+  "famousScores": [
+    { "name": "《安魂曲》 Op.48", "nameEn": "Requiem, Op. 48", "desc": "「温柔的死亡摇篮曲」，与莫扎特和勃拉姆斯的安魂曲并列", "descEn": "A gentle lullaby of death, ranked alongside the requiems of Mozart and Brahms" },
+    { "name": "《帕凡舞曲》 Op.50", "nameEn": "Pavane, Op. 50", "desc": "法国音乐中最优雅的管弦乐小品", "descEn": "The most graceful orchestral miniature in all of French music" },
+    { "name": "《西西里舞曲》 Op.78", "nameEn": "Sicilienne, Op. 78", "desc": "选自《佩利亚斯与梅丽桑德》组曲，旋律醉人", "descEn": "From the Pelleas et Melisande suite — an irresistibly enchanting melody" },
+    { "name": "《月光》 Op.46 No.2", "nameEn": "Clair de lune, Op. 46 No. 2", "desc": "魏尔伦诗歌谱曲，法国艺术歌曲的瑰宝", "descEn": "A setting of Verlaine's poetry and a jewel of the French art song repertoire" },
+    { "name": "《钢琴五重奏》第二首 Op.115", "nameEn": "Piano Quintet No. 2, Op. 115", "desc": "晚年室内乐杰作，深沉内省而不失温暖", "descEn": "A late chamber masterpiece — profoundly introspective yet never without warmth" }
+  ],
+  "influence": "福雷的和声创新——调式混合、意外的和弦进行、模糊的调性中心——为德彪西和拉威尔的音乐语言奠定了基础。他的学生拉威尔将他的精致发展为更加色彩化的印象主义。通过学生纳迪亚·布朗热，他的影响延伸到了20世纪的美国音乐——科普兰、伯恩斯坦、菲利普·格拉斯都曾师从布朗热。福雷是法国音乐传统中最内敛、最深沉的声音。",
+  "influenceEn": "Faure's harmonic innovations — modal mixture, unexpected chord progressions, blurred tonal centers — laid the groundwork for the musical languages of Debussy and Ravel. His student Ravel developed his refinement into a more colorful Impressionism. Through his student Nadia Boulanger, his influence reached deep into twentieth-century American music — Copland, Bernstein, and Philip Glass all studied with Boulanger. Faure remains the most quietly profound voice in the French musical tradition.",
+  "spotifyLink": "https://open.spotify.com/artist/2gClsBep1tt1rv1CN210SO"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chopin",
+  "name": "弗里德里克·肖邦",
+  "nameEn": "Frédéric Chopin",
+  "years": "1810 — 1849",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "C",
+  "brief": "肖邦出生于华沙近郊的热拉佐瓦沃拉，父亲是法国移民，母亲是波兰人。1830年华沙起义爆发前夕他离开波兰，此后再未能回到祖国。他定居巴黎，成为巴黎上流社会最受追捧的钢琴家和教师。他与法国女作家乔治·桑的恋情持续了近十年。肖邦一生饱受肺结核困扰，1849年在巴黎去世，年仅39岁。根据他的遗愿，他的心脏被带回华沙，安放在圣十字教堂的廊柱中。",
+  "briefEn": "Chopin was born in Zelazowa Wola near Warsaw to a French emigrant father and a Polish mother. He left Poland on the eve of the 1830 Warsaw Uprising and never returned to his homeland. He settled in Paris, where he became the most sought-after pianist and teacher in high society. His love affair with the French novelist George Sand lasted nearly a decade. Plagued by tuberculosis throughout his life, Chopin died in Paris in 1849 at the age of just 39. In accordance with his last wish, his heart was carried back to Warsaw and enshrined in a pillar of the Church of the Holy Cross.",
+  "contribution": "肖邦彻底革新了钢琴音乐的语汇。他将夜曲、圆舞曲、波罗乃兹、玛祖卡等体裁提升为严肃的艺术形式；他的练习曲首次将技巧训练与音乐性完美统一；他的叙事曲开创了钢琴音乐中的史诗叙事；他的前奏曲集成为一种全新的微型套曲形式。他证明了钢琴独奏足以容纳最深刻的音乐思想，无需管弦乐队的辅助。",
+  "contributionEn": "Chopin completely reinvented the vocabulary of piano music. He elevated the nocturne, waltz, polonaise, and mazurka into serious art forms; his etudes achieved a perfect union of technical exercise and musicality for the first time; his ballades pioneered epic narrative in piano music; and his preludes established an entirely new miniature-cycle format. He proved that the solo piano could convey the most profound musical ideas without the aid of an orchestra.",
+  "style": "肖邦的音乐以独一无二的钢琴歌唱性著称。他的旋律如人声般自然流动，装饰音不是外在的炫技而是旋律的有机延伸。他的和声语汇极其前卫——大量使用半音化和声、增六和弦、那不勒斯和弦，某些段落已接近无调性。他的踏板运用创造了丰富的音响色彩，左手的伴奏织体变化无穷。他的音乐始终带有一种深沉的乡愁——对波兰故土的思念。",
+  "styleEn": "Chopin's music is renowned for its unparalleled singing quality at the piano. His melodies flow as naturally as the human voice, with ornamental passages serving not as outward display but as organic extensions of the melodic line. His harmonic language was remarkably advanced — rich in chromaticism, augmented-sixth chords, and Neapolitan harmonies, at times verging on atonality. His pedaling created a wealth of tonal color, and his left-hand accompaniment textures were endlessly inventive. A profound nostalgia — a longing for his Polish homeland — pervades all of his music.",
+  "famousScores": [
+    { "name": "《夜曲》全集 (21首)", "nameEn": "Complete Nocturnes (21 pieces)", "desc": "钢琴歌唱性的极致体现，尤以Op.9 No.2最为人知", "descEn": "The supreme expression of the piano's singing quality; Op. 9 No. 2 remains the most beloved" },
+    { "name": "《第一叙事曲》g小调 Op.23", "nameEn": "Ballade No. 1 in G minor, Op. 23", "desc": "钢琴文学的史诗，受密茨凯维奇诗歌启发", "descEn": "An epic of piano literature, inspired by the poetry of Adam Mickiewicz" },
+    { "name": "《练习曲集》Op.10 & Op.25", "nameEn": "Etudes, Op. 10 & Op. 25", "desc": "技巧与音乐性的完美统一，每首都是一首音诗", "descEn": "A perfect fusion of technical mastery and musicality — each etude is a tone poem in its own right" },
+    { "name": "《降b小调奏鸣曲》Op.35", "nameEn": "Piano Sonata No. 2 in B-flat minor, Op. 35", "desc": "包含著名的《葬礼进行曲》，浪漫主义钢琴奏鸣曲的里程碑", "descEn": "Contains the famous Funeral March; a milestone of the Romantic piano sonata" },
+    { "name": "《英雄波罗乃兹》Op.53", "nameEn": "Heroic Polonaise, Op. 53", "desc": "波兰民族精神的音乐化身，气势恢宏", "descEn": "A majestic embodiment of the Polish national spirit in music" }
+  ],
+  "influence": "肖邦对后世钢琴音乐的影响无法估量。李斯特从他的演奏中学到了钢琴的歌唱性；德彪西称自己是「肖邦的学生」；斯克里亚宾和拉赫玛尼诺夫延续了他的钢琴诗人传统。他前卫的和声语汇为德彪西和拉威尔的印象主义铺平了道路。肖邦国际钢琴比赛（华沙）至今仍是全球最负盛名的钢琴赛事之一。他是波兰永恒的文化象征。",
+  "influenceEn": "Chopin's impact on subsequent piano music is immeasurable. Liszt learned the art of pianistic lyricism from his playing; Debussy called himself 'a pupil of Chopin'; Scriabin and Rachmaninoff carried forward his tradition of the pianist-poet. His adventurous harmonic language paved the way for the Impressionism of Debussy and Ravel. The International Chopin Piano Competition in Warsaw remains one of the world's most prestigious piano events. He is an enduring cultural symbol of Poland.",
+  "spotifyLink": "https://open.spotify.com/artist/7y97mc3bZRFXzT2szRM4L4"
+}

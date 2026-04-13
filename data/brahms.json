@@ -1,0 +1,25 @@
+{
+  "id": "brahms",
+  "name": "约翰内斯·勃拉姆斯",
+  "nameEn": "Johannes Brahms",
+  "years": "1833 — 1897",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "B",
+  "brief": "勃拉姆斯出生于汉堡一个贫寒的音乐家庭，少年时期曾在港口区的酒馆弹琴贴补家用。1853年，20岁的勃拉姆斯经小提琴家约阿希姆引荐拜访了舒曼夫妇，舒曼在《新音乐杂志》上发表了著名的《新道路》一文，将勃拉姆斯推上历史舞台。舒曼去世后，勃拉姆斯与克拉拉·舒曼保持了终身的深厚友谊（其间是否有爱情至今成谜）。他终身未婚，晚年定居维也纳，是当时最受尊崇的在世作曲家。",
+  "briefEn": "Brahms was born into a poor musical family in Hamburg and as a youth played piano in waterfront taverns to help support the household. In 1853, at the age of twenty, he was introduced to the Schumanns by the violinist Joseph Joachim; Robert Schumann's famous essay Neue Bahnen ('New Paths') in the Neue Zeitschrift fur Musik launched Brahms onto the historical stage. After Schumann's death, Brahms maintained a lifelong and profound friendship with Clara Schumann — whether it ever became a love affair remains one of music's great mysteries. He never married, settled in Vienna in his later years, and was the most revered living composer of his time.",
+  "contribution": "勃拉姆斯在「新德意志乐派」（瓦格纳、李斯特）与古典传统之间坚持了自己的道路——他证明了在不放弃传统形式的前提下，仍然可以写出充满浪漫主义情感的伟大音乐。他花了21年才完成《第一交响曲》，被指挥家汉斯·冯·彪罗称为「贝多芬的第十交响曲」。他将贝多芬的主题发展技法与舒伯特式的旋律美融为一体。",
+  "contributionEn": "Brahms charted his own course between the New German School of Wagner and Liszt and the Classical tradition, proving that great music brimming with Romantic feeling could still be written without abandoning traditional forms. He spent twenty-one years completing his First Symphony, which the conductor Hans von Bulow hailed as 'Beethoven's Tenth.' He seamlessly united Beethoven's developmental rigor with Schubertian melodic beauty.",
+  "style": "勃拉姆斯的音乐以结构的严密性和情感的内敛深沉著称。他的旋律悠长而充满秋意般的温暖；和声丰厚浓郁，大量使用三度和六度叠加的饱满音响。他是「展开性变奏」（Developing Variation）的大师——一个简单的动机通过不断的细微变形贯穿整部作品。他的音乐从不外露，激情总是克制在严谨的形式之中，如同深秋的熊熊暗火。",
+  "styleEn": "Brahms's music is celebrated for its structural rigor and its deeply reserved emotional intensity. His melodies are long-breathed and suffused with an autumnal warmth; his harmony is rich and dense, making lavish use of thirds and sixths for a full-bodied sonority. He was the master of developing variation — a simple motif is subtly transformed and threaded through an entire work. His music never wears its heart on its sleeve; passion is always held in check within disciplined formal architecture, like a deep, glowing fire beneath the surface of late autumn.",
+  "famousScores": [
+    { "name": "《德意志安魂曲》 Op.45", "nameEn": "A German Requiem, Op. 45", "desc": "以德语圣经为词的安魂曲，非天主教仪式，而是对人类的普遍安慰", "descEn": "A requiem set to German biblical texts — not a Catholic liturgy but a universal consolation for all humanity" },
+    { "name": "《第一交响曲》c小调 Op.68", "nameEn": "Symphony No. 1 in C minor, Op. 68", "desc": "耗时21年的里程碑，被誉为「贝多芬的第十」", "descEn": "A milestone twenty-one years in the making, hailed as 'Beethoven's Tenth'" },
+    { "name": "《第四交响曲》e小调 Op.98", "nameEn": "Symphony No. 4 in E minor, Op. 98", "desc": "末乐章以帕萨卡利亚形式写就，古典形式的浪漫主义巅峰", "descEn": "Its finale is cast as a passacaglia — the crowning achievement of Romantic expression within Classical form" },
+    { "name": "《小提琴协奏曲》D大调 Op.77", "nameEn": "Violin Concerto in D major, Op. 77", "desc": "与贝多芬、柴可夫斯基并称三大小提琴协奏曲", "descEn": "Ranked alongside Beethoven's and Tchaikovsky's as one of the three great violin concertos" },
+    { "name": "《间奏曲》Op.117–119", "nameEn": "Intermezzi, Op. 117-119", "desc": "晚年钢琴小品，秋日余晖般的深沉与温柔", "descEn": "Late piano miniatures of autumnal depth and tenderness, like the last glow of a setting sun" }
+  ],
+  "influence": "勃拉姆斯代表了浪漫主义时期「绝对音乐」（纯音乐）立场的最高成就。勋伯格在著名论文《进步的勃拉姆斯》中揭示了勃拉姆斯音乐中隐藏的现代性——他的「展开性变奏」技法是十二音技法的直接先驱。他对室内乐、艺术歌曲和交响曲的贡献影响了理查·施特劳斯、雷格、勋伯格和韦伯恩。他证明了传统与创新并不矛盾。",
+  "influenceEn": "Brahms represents the supreme achievement of the 'absolute music' ideal in the Romantic era. In his landmark essay 'Brahms the Progressive,' Schoenberg revealed the hidden modernity in Brahms's music — his developing variation technique was a direct precursor to the twelve-tone method. His contributions to chamber music, art song, and the symphony influenced Richard Strauss, Reger, Schoenberg, and Webern. He proved that tradition and innovation are not mutually exclusive.",
+  "spotifyLink": "https://open.spotify.com/artist/5wTAi7QkpP6kp8a54lmTOq"
+}

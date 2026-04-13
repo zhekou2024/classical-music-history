@@ -1,0 +1,25 @@
+{
+  "id": "schoenberg",
+  "name": "阿诺德·勋伯格",
+  "nameEn": "Arnold Schoenberg",
+  "years": "1874 — 1951",
+  "period": "现代主义",
+  "periodEn": "Modern",
+  "avatar": "S",
+  "brief": "勋伯格出生于维也纳一个犹太家庭，几乎完全自学成才。他的早期作品（如《升华之夜》）延续了瓦格纳的晚期浪漫风格，随后逐渐走向无调性。1920年代他发明了十二音技法，成为20世纪音乐最重要的理论贡献。纳粹上台后他流亡美国，在洛杉矶度过了余生。他患有严重的「十三恐惧症」——讽刺的是，他于1951年7月13日（星期五）去世，终年76岁（7+6=13）。",
+  "briefEn": "Schoenberg was born into a Jewish family in Vienna and was largely self-taught. His early works, such as Verklärte Nacht, continued the late-Romantic idiom of Wagner before he gradually moved toward atonality. In the 1920s he invented the twelve-tone technique, arguably the most consequential theoretical innovation in twentieth-century music. After the Nazis came to power he emigrated to the United States and spent the rest of his life in Los Angeles. He suffered from severe triskaidekaphobia — in a grim irony, he died on Friday the 13th of July 1951, at the age of seventy-six (7 + 6 = 13).",
+  "contribution": "勋伯格是调性瓦解后最重要的建设者。当他意识到传统调性和声已经耗尽其可能性后，他没有停留在自由无调性的混沌中，而是发明了十二音技法（Twelve-tone Technique）——将一个八度中的12个半音排成一个序列，以此作为整部作品的基础素材。这一方法为无调性音乐提供了逻辑秩序，深刻影响了此后半个世纪的严肃音乐创作。",
+  "contributionEn": "Schoenberg was the foremost architect of a new order after the collapse of tonality. Recognizing that traditional tonal harmony had exhausted its possibilities, he refused to remain in the chaos of free atonality and instead invented the twelve-tone technique — arranging the twelve chromatic pitches of the octave into a fixed row that serves as the foundational material for an entire composition. This method gave atonal music a coherent logic and profoundly influenced serious composition for the next half century.",
+  "style": "勋伯格的创作横跨三个阶段：晚期浪漫主义（浓郁的瓦格纳式和声）、自由无调性（表现主义的极端情感张力）和十二音序列（严密的逻辑组织）。他的音乐以极高的表现力和紧张度著称，即使在最抽象的序列作品中也保持着强烈的情感投入。他的音乐要求听众全神贯注——没有重复、没有主旋律、每一个音都承载着结构功能。",
+  "styleEn": "Schoenberg's output spans three distinct phases: late Romanticism (rich Wagnerian harmony), free atonality (the extreme emotional tension of Expressionism), and twelve-tone serialism (rigorous logical organization). His music is marked by extraordinary expressive intensity; even his most abstract serial works retain a fierce emotional commitment. It demands total concentration from the listener — there is no repetition, no singable tune, and every note carries structural weight.",
+  "famousScores": [
+    { "name": "《升华之夜》 Op.4", "nameEn": "Verklärte Nacht, Op. 4", "desc": "弦乐六重奏（后改编为弦乐队版），晚期浪漫主义的绝唱", "descEn": "A string sextet (later arranged for string orchestra) — a crowning achievement of late Romanticism" },
+    { "name": "《月迷彼埃罗》 Op.21", "nameEn": "Pierrot lunaire, Op. 21", "desc": "21首音诗，使用「说唱」（Sprechstimme）技法，表现主义的标志", "descEn": "Twenty-one poems employing Sprechstimme (speech-song), a landmark of musical Expressionism" },
+    { "name": "《华沙幸存者》 Op.46", "nameEn": "A Survivor from Warsaw, Op. 46", "desc": "纳粹大屠杀的音乐纪念碑，撼人心魄", "descEn": "A shattering musical memorial to the Holocaust" },
+    { "name": "《钢琴组曲》 Op.25", "nameEn": "Suite for Piano, Op. 25", "desc": "第一部完全使用十二音技法的作品", "descEn": "The first composition written entirely using the twelve-tone method" },
+    { "name": "《五首管弦乐曲》 Op.16", "nameEn": "Five Pieces for Orchestra, Op. 16", "desc": "自由无调性的管弦乐杰作，探索音色旋律", "descEn": "A masterpiece of free atonality exploring Klangfarbenmelodie — melody made of shifting tone colors" }
+  ],
+  "influence": "勋伯格的十二音技法通过他的学生韦伯恩和贝尔格（合称「第二维也纳乐派」）传播开来，并在二战后被布列兹、施托克豪森等人发展为全面序列主义。斯特拉文斯基晚年也转向了序列技法。尽管十二音音乐从未赢得广大听众的喜爱，它作为一种思维方式深刻影响了20世纪音乐教育和作曲理论。他提出的「音色旋律」（Klangfarbenmelodie）概念启发了频谱音乐等后续流派。",
+  "influenceEn": "Schoenberg's twelve-tone method spread through his pupils Webern and Berg — together known as the Second Viennese School — and was extended into total serialism after World War II by Boulez, Stockhausen, and others. Even Stravinsky adopted serial techniques in his late works. Although twelve-tone music never won a mass audience, as an intellectual framework it profoundly shaped twentieth-century music education and compositional theory. His concept of Klangfarbenmelodie (tone-color melody) went on to inspire spectral music and other later movements.",
+  "spotifyLink": "https://open.spotify.com/artist/5U827e4jbYz6EjtN0fIDt9"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bach",
+  "name": "约翰·塞巴斯蒂安·巴赫",
+  "nameEn": "Johann Sebastian Bach",
+  "years": "1685 — 1750",
+  "period": "巴洛克",
+  "periodEn": "Baroque",
+  "avatar": "B",
+  "brief": "巴赫出生于德国图林根州的艾森纳赫，来自一个世代从事音乐的家族。他一生大部分时间在教堂和宫廷担任管风琴师与乐长，生前并未享有今日的盛名。巴赫在莱比锡圣托马斯教堂度过了人生最后的27年，创作了大量宗教与世俗作品。他去世后几近被遗忘，直到19世纪门德尔松重新上演《马太受难曲》，巴赫才被世人重新发现，并被尊为「音乐之父」。",
+  "briefEn": "Bach was born in Eisenach, Thuringia, into a family steeped in music for generations. He spent most of his life serving as organist and music director at churches and courts, and enjoyed nothing like his present-day fame during his lifetime. Bach spent his final 27 years at the Thomaskirche in Leipzig, producing an enormous body of sacred and secular works. After his death he was largely forgotten, until Mendelssohn's landmark revival of the St Matthew Passion in the 19th century restored him to the world's attention and earned him the title 'Father of Music.'",
+  "contribution": "巴赫将巴洛克时期的对位法（Counterpoint）发展到了登峰造极的境界。他的《平均律键盘曲集》系统性地展示了所有24个大小调的可能性，为后世的调性体系奠定了基石。他将意大利协奏风格、法国舞曲传统与德国对位技法融为一体，创造出一种综合性的音乐语言，深刻影响了此后三个世纪的西方音乐。",
+  "contributionEn": "Bach brought Baroque counterpoint to its absolute pinnacle. His Well-Tempered Clavier systematically demonstrated the possibilities of all 24 major and minor keys, laying the cornerstone of the tonal system for centuries to come. By synthesizing the Italian concerto style, French dance traditions, and German contrapuntal craft, he forged a comprehensive musical language that profoundly shaped three centuries of Western music.",
+  "style": "巴赫的音乐以严密的对位结构著称，赋格与卡农是他最擅长的形式。他的作品兼具数学般的精确与深沉的情感力量——复杂的声部交织中蕴含着深邃的宗教虔诚与人文关怀。他的和声语汇极其丰富，大量使用半音化进行和意想不到的转调，赋予音乐一种超越时代的现代感。",
+  "styleEn": "Bach's music is defined by its rigorous contrapuntal architecture, with fugue and canon as his supreme forms. His works unite mathematical precision with profound emotional depth — within the intricate interplay of voices lies a deep religious devotion and humane compassion. His harmonic vocabulary is extraordinarily rich, employing extensive chromaticism and unexpected modulations that lend the music a strikingly modern quality far ahead of its time.",
+  "famousScores": [
+    { "name": "《马太受难曲》 BWV 244", "nameEn": "St Matthew Passion, BWV 244", "desc": "巴洛克声乐巨作，以耶稣受难为题材的大型清唱剧", "descEn": "A monumental Baroque vocal work — a large-scale oratorio depicting the Passion of Christ" },
+    { "name": "《哥德堡变奏曲》 BWV 988", "nameEn": "Goldberg Variations, BWV 988", "desc": "30段变奏构成的键盘百科全书，结构精妙无比", "descEn": "An encyclopedic keyboard work of 30 variations, breathtaking in its structural ingenuity" },
+    { "name": "《平均律键盘曲集》 BWV 846–893", "nameEn": "The Well-Tempered Clavier, BWV 846–893", "desc": "48首前奏曲与赋格，覆盖全部24个大小调", "descEn": "48 preludes and fugues traversing all 24 major and minor keys" },
+    { "name": "《勃兰登堡协奏曲》 BWV 1046–1051", "nameEn": "Brandenburg Concertos, BWV 1046–1051", "desc": "六首协奏曲，巴洛克管弦乐的巅峰之作", "descEn": "Six concertos representing the summit of Baroque orchestral writing" },
+    { "name": "《无伴奏大提琴组曲》 BWV 1007–1012", "nameEn": "Cello Suites, BWV 1007–1012", "desc": "大提琴独奏文献的圣经，至今仍是每位大提琴家的必修曲目", "descEn": "The bible of the solo cello repertoire, still essential study for every cellist" }
+  ],
+  "influence": "巴赫对后世的影响几乎无法估量。莫扎特研究巴赫后深受启发，贝多芬称他为「和声之父」。在浪漫主义时期，门德尔松、舒曼等人重新发掘了他的作品。进入20世纪，勋伯格的十二音体系可以追溯到巴赫对位法的逻辑延伸。爵士乐、电子音乐甚至摇滚乐中都能找到巴赫的影子。他不仅是巴洛克的集大成者，更是整个西方音乐的根基。",
+  "influenceEn": "Bach's influence on posterity is virtually immeasurable. Mozart was profoundly inspired after studying Bach's works; Beethoven called him the 'father of harmony.' During the Romantic era, Mendelssohn, Schumann, and others championed his rediscovery. In the 20th century, Schoenberg's twelve-tone system can be traced back as a logical extension of Bachian counterpoint. Echoes of Bach resound in jazz, electronic music, and even rock. He stands not merely as the supreme master of the Baroque, but as the very bedrock of Western music.",
+  "spotifyLink": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+}

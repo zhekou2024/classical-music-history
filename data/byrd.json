@@ -1,0 +1,25 @@
+{
+  "id": "byrd",
+  "name": "威廉·伯德",
+  "nameEn": "William Byrd",
+  "years": "约 1540 — 1623",
+  "period": "文艺复兴",
+  "periodEn": "Renaissance",
+  "avatar": "B",
+  "brief": "伯德被誉为「英国音乐之父」，出生于伦敦，师从托马斯·塔利斯。他在伊丽莎白一世时代担任皇家礼拜堂管风琴师，尽管作为天主教徒身处新教英国面临巨大压力，仍获得了女王的保护与宠信。伯德与塔利斯共同获得了英国音乐出版的皇家专利权。他一生创作了大量英国国教和天主教礼拜音乐，同时也是键盘音乐和世俗声乐的大师。",
+  "briefEn": "Hailed as the 'father of English music,' Byrd was born in London and studied under Thomas Tallis. He served as organist of the Chapel Royal during the reign of Elizabeth I, and despite the immense pressures of being a Catholic in Protestant England, he enjoyed the Queen's personal protection and favor. Together with Tallis, he held the royal patent for music printing in England. Over the course of his long career, Byrd composed prolifically for both the Anglican and Catholic liturgies while also excelling in keyboard music and secular song.",
+  "contribution": "伯德开创了英国键盘音乐的传统，他的维吉纳琴（Virginal）作品集奠定了英国键盘学派的基础。他在英国国教的礼拜音乐、天主教弥撒曲、英文赞歌（Anthem）和世俗牧歌各领域均有开创性贡献。他证明了英语同样可以被谱成精美的复调音乐，为英国音乐在欧洲大陆赢得了尊重。",
+  "contributionEn": "Byrd founded the tradition of English keyboard music; his virginal collections laid the groundwork for the entire English keyboard school. He made pioneering contributions across Anglican service music, Catholic masses, the English anthem, and secular song. He proved that the English language could be set to polyphony of the highest refinement, earning English music the respect of the Continent.",
+  "style": "伯德的音乐融合了大陆复调传统与英国本土风格。他的声乐作品善于在严谨的对位结构中注入深沉的情感，尤其是天主教礼拜作品中流露出一种隐忍的虔诚与悲壮。他的键盘音乐则展示了另一面——充满活力的舞曲、精巧的变奏和大胆的和声实验，预示了巴洛克键盘音乐的可能性。",
+  "styleEn": "Byrd's music blends the Continental polyphonic tradition with a distinctly English sensibility. His vocal works infuse rigorous contrapuntal structures with deep emotion — particularly his Catholic liturgical pieces, which radiate a stoic devotion and quiet grandeur. His keyboard music reveals another facet entirely: spirited dances, ingenious sets of variations, and adventurous harmonic experiments that foreshadow the possibilities of Baroque keyboard writing.",
+  "famousScores": [
+    { "name": "三首弥撒曲（三、四、五声部）", "nameEn": "Three Masses (for 3, 4, and 5 voices)", "desc": "为英国天主教秘密礼拜而作，简洁而深情", "descEn": "Written for clandestine Catholic worship in England, spare yet deeply heartfelt" },
+    { "name": "《伟大的服务乐》 Great Service", "nameEn": "Great Service", "desc": "英国国教礼拜音乐的最高成就", "descEn": "The crowning achievement of Anglican liturgical music" },
+    { "name": "《我的耐萨小姐》 My Ladye Nevells Booke", "nameEn": "My Ladye Nevells Booke", "desc": "42首键盘作品集，英国维吉纳琴音乐的瑰宝", "descEn": "A collection of 42 keyboard pieces — a treasure of the English virginal repertoire" },
+    { "name": "《万福，真正的圣体》 Ave Verum Corpus", "nameEn": "Ave Verum Corpus", "desc": "四声部经文歌，以极简笔法写就的珍品", "descEn": "A four-voice motet of gem-like beauty achieved through the most economical means" },
+    { "name": "《歌曲与十四行诗集》", "nameEn": "Psalmes, Sonets and Songs", "desc": "英文世俗歌曲集，英国牧歌传统的重要文献", "descEn": "A collection of English secular songs and a landmark in the English madrigal tradition" }
+  ],
+  "influence": "伯德的键盘作品通过《菲茨威廉维吉纳琴曲集》等手稿流传后世，影响了英国键盘音乐传统直至珀塞尔和亨德尔。他确立的英国赞歌（Anthem）体裁在珀塞尔手中进一步发展，最终融入亨德尔的英语清唱剧传统。20世纪的英国音乐复兴运动重新发现了伯德的作品，沃恩·威廉斯等人从中汲取了民族音乐的灵感。",
+  "influenceEn": "Byrd's keyboard works, preserved in manuscripts such as the Fitzwilliam Virginal Book, shaped the English keyboard tradition through Purcell and into the age of Handel. The English anthem as he established it was further developed by Purcell and ultimately absorbed into Handel's English oratorio tradition. The twentieth-century English musical renaissance brought renewed attention to Byrd's output, with Vaughan Williams and others drawing inspiration from it for a distinctly national musical voice.",
+  "spotifyLink": "https://open.spotify.com/artist/2j7yGPnVrdIHjHwtyLPJ2z"
+}

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>西方古典音乐史</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0e0e12;
+      --surface:   #16161d;
+      --card:      #1c1c26;
+      --gold:      #c9a84c;
+      --gold-lt:   #e8c97a;
+      --gold-dk:   #8b6e2e;
+      --text:      #e8e4dc;
+      --muted:     #8a8680;
+      --accent:    #6b4fbb;
+      --serif:     'Playfair Display', Georgia, serif;
+      --sans:      'Lato', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--gold-dk); border-radius: 3px; }
+
+    /* ── Nav ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 3rem; height: 60px;
+      background: rgba(14,14,18,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .nav-brand { font-family: var(--serif); font-size: 1.05rem; color: var(--gold); letter-spacing: 0.05em; text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.25s; }
+    .nav-links a:hover { color: var(--gold-lt); }
+
+    /* ── Hero ── */
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; text-align: center;
+      padding: 6rem 2rem 4rem; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 70% 60% at 50% 40%, rgba(107,79,187,0.18) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 40% at 20% 80%, rgba(201,168,76,0.10) 0%, transparent 60%);
+    }
+    .hero-badge {
+      display: inline-block; border: 1px solid var(--gold-dk); color: var(--gold);
+      font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
+      padding: 0.35em 1.1em; border-radius: 999px; margin-bottom: 1.8rem;
+      animation: fadeDown 0.8s ease both;
+    }
+    .hero h1 {
+      font-family: var(--serif); font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 700; line-height: 1.15;
+      background: linear-gradient(135deg, var(--gold-lt) 0%, var(--gold) 50%, var(--gold-dk) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      animation: fadeDown 0.9s 0.1s ease both;
+    }
+    .hero-sub { margin-top: 1.2rem; font-size: 1.05rem; color: var(--muted); max-width: 540px; animation: fadeDown 1s 0.2s ease both; }
+    .hero-divider { margin: 2.5rem auto; width: 80px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); animation: fadeDown 1s 0.3s ease both; }
+    .hero-note { font-family: var(--serif); font-style: italic; color: var(--muted); font-size: 0.95rem; animation: fadeDown 1s 0.4s ease both; }
+
+    .scroll-hint {
+      position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+      color: var(--muted); font-size: 0.7rem; letter-spacing: 0.15em;
+      text-transform: uppercase; text-decoration: none;
+      animation: fadeDown 1s 0.6s ease both; transition: color 0.25s;
+    }
+    .scroll-hint:hover { color: var(--gold-lt); }
+    .scroll-hint::after {
+      content: ''; display: block; width: 1px; height: 40px;
+      background: linear-gradient(to bottom, var(--gold-dk), transparent);
+      animation: scrollLine 1.6s ease-in-out infinite;
+    }
+
+    /* ── Section shared ── */
+    section { padding: 6rem 2rem; }
+    .section-label { text-align: center; font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
+    .section-title { text-align: center; font-family: var(--serif); font-size: clamp(1.7rem, 4vw, 2.4rem); color: var(--text); margin-bottom: 1rem; }
+    .section-desc { text-align: center; max-width: 560px; margin: 0 auto 3.5rem; color: var(--muted); font-size: 0.95rem; }
+
+    /* ── Timeline ── */
+    #timeline { background: var(--surface); }
+    .timeline-strip {
+      display: flex; justify-content: center; align-items: center;
+      max-width: 900px; margin: 0 auto 4rem; position: relative;
+    }
+    .timeline-strip::before {
+      content: ''; position: absolute; top: 50%; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-dk), var(--gold), var(--gold-dk), transparent);
+      transform: translateY(-50%);
+    }
+    .tl-dot {
+      position: relative; display: flex; flex-direction: column;
+      align-items: center; flex: 1; text-decoration: none;
+    }
+    .tl-dot-inner {
+      width: 12px; height: 12px; border-radius: 50%; background: var(--gold);
+      border: 2px solid var(--bg); box-shadow: 0 0 8px var(--gold);
+      z-index: 1; transition: transform 0.2s;
+    }
+    .tl-dot:hover .tl-dot-inner { transform: scale(1.5); }
+    .tl-label {
+      position: absolute; top: calc(50% + 16px); font-size: 0.65rem;
+      color: var(--muted); white-space: nowrap; letter-spacing: 0.05em;
+      transition: color 0.25s;
+    }
+    .tl-dot:hover .tl-label { color: var(--gold-lt); }
+    .tl-dot:nth-child(odd) .tl-label { top: auto; bottom: calc(50% + 16px); }
+
+    /* ── Period Cards ── */
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto; }
+    .period-card {
+      background: var(--card); border: 1px solid rgba(201,168,76,0.12);
+      border-radius: 12px; padding: 2rem; position: relative; overflow: hidden;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    }
+    .period-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--card-accent, linear-gradient(90deg, var(--gold-dk), var(--gold)));
+      border-radius: 12px 12px 0 0;
+    }
+    .period-card:hover {
+      transform: translateY(-5px); border-color: rgba(201,168,76,0.35);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.4), 0 0 20px rgba(201,168,76,0.08);
+    }
+    .card-era { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; }
+    .card-title { font-family: var(--serif); font-size: 1.45rem; margin-bottom: 0.3rem; color: var(--text); }
+    .card-period { font-size: 0.8rem; color: var(--muted); margin-bottom: 1.1rem; }
+    .card-desc { font-size: 0.9rem; color: #b0ab9e; line-height: 1.75; margin-bottom: 1.4rem; }
+    .card-composers { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+    .composer-tag {
+      display: inline-block; font-size: 0.72rem; padding: 0.25em 0.75em;
+      border-radius: 999px; background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.2); color: var(--gold-lt);
+      text-decoration: none; transition: background 0.2s, border-color 0.2s;
+    }
+    .composer-tag:hover { background: rgba(201,168,76,0.25); border-color: rgba(201,168,76,0.4); }
+
+    .card-icon { position: absolute; bottom: 1.2rem; right: 1.5rem; font-size: 2.8rem; opacity: 0.07; pointer-events: none; line-height: 1; }
+
+    .card-renaissance { --card-accent: linear-gradient(90deg, #5a4a8a, #9b7fd4); }
+    .card-baroque     { --card-accent: linear-gradient(90deg, #8b4a2e, #d4845a); }
+    .card-classical   { --card-accent: linear-gradient(90deg, #2e6b5e, #5ab8a0); }
+    .card-romantic    { --card-accent: linear-gradient(90deg, #7a2e4a, #c96080); }
+    .card-modern      { --card-accent: linear-gradient(90deg, #2e4a7a, #5a80c9); }
+
+    /* ── Quote ── */
+    #quote {
+      background:
+        linear-gradient(135deg, rgba(107,79,187,0.12) 0%, transparent 50%),
+        linear-gradient(225deg, rgba(201,168,76,0.08) 0%, transparent 50%),
+        var(--bg);
+      text-align: center; padding: 7rem 2rem;
+    }
+    blockquote { max-width: 680px; margin: 0 auto; position: relative; }
+    blockquote::before { content: '\201C'; font-family: var(--serif); font-size: 7rem; line-height: 0.8; color: var(--gold-dk); opacity: 0.5; display: block; margin-bottom: 0.5rem; }
+    blockquote p { font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, 3vw, 1.5rem); color: var(--text); line-height: 1.6; margin-bottom: 1.5rem; }
+    blockquote cite { font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+
+    /* ── Composers Spotlight ── */
+    #composers { background: var(--surface); }
+    .composers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.2rem; max-width: 1100px; margin: 0 auto; }
+
+    .composer-card {
+      display: block; background: var(--card); border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 10px; padding: 1.5rem 1.2rem; text-align: center;
+      text-decoration: none; color: inherit;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+    .composer-card:hover { transform: translateY(-4px); border-color: rgba(201,168,76,0.25); }
+
+    .composer-avatar {
+      width: 64px; height: 64px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dk), var(--accent));
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--serif); font-size: 1.5rem; color: var(--gold-lt);
+      margin: 0 auto 1rem; border: 2px solid rgba(201,168,76,0.3);
+    }
+    .composer-name { font-family: var(--serif); font-size: 1rem; color: var(--text); margin-bottom: 0.2rem; }
+    .composer-years { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.6rem; }
+    .composer-known { font-size: 0.78rem; color: #8a8680; line-height: 1.5; }
+    .composer-era-badge {
+      display: inline-block; margin-top: 0.8rem; font-size: 0.65rem;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold);
+      border: 1px solid var(--gold-dk); padding: 0.2em 0.6em; border-radius: 999px;
+    }
+
+    /* ── Footer ── */
+    footer { border-top: 1px solid rgba(201,168,76,0.1); padding: 3rem 2rem; text-align: center; background: var(--bg); }
+    .footer-logo { font-family: var(--serif); font-size: 1.2rem; color: var(--gold); margin-bottom: 0.8rem; }
+    .footer-text { font-size: 0.8rem; color: var(--muted); line-height: 1.8; }
+    .footer-divider { width: 40px; height: 1px; background: var(--gold-dk); margin: 1rem auto; }
+
+    /* ── Animations ── */
+    @keyframes fadeDown { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes scrollLine { 0% { opacity: 1; transform: scaleY(1) translateY(0); } 100% { opacity: 0; transform: scaleY(0.3) translateY(20px); } }
+
+    /* ── Language Toggle ── */
+    .lang-toggle {
+      background: none; border: 1px solid var(--gold-dk); color: var(--gold);
+      font-size: 0.72rem; letter-spacing: 0.1em; padding: 0.3em 0.8em;
+      border-radius: 999px; cursor: pointer; transition: background 0.25s, color 0.25s;
+      font-family: var(--sans); margin-left: 1.5rem;
+    }
+    .lang-toggle:hover { background: rgba(201,168,76,0.15); color: var(--gold-lt); }
+    body.lang-en .zh { display: none !important; }
+    body:not(.lang-en) .en { display: none !important; }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 1.2rem; }
+      .nav-links { gap: 1rem; }
+      .nav-links a { font-size: 0.7rem; }
+      .timeline-strip { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="#home">♩ <span class="zh">古典音乐史</span><span class="en">Classical Music</span></a>
+    <ul class="nav-links">
+      <li><a href="#timeline"><span class="zh">年表</span><span class="en">Timeline</span></a></li>
+      <li><a href="#periods"><span class="zh">时期</span><span class="en">Periods</span></a></li>
+      <li><a href="#composers"><span class="zh">作曲家</span><span class="en">Composers</span></a></li>
+      <li><a href="#quote"><span class="zh">语录</span><span class="en">Quote</span></a></li>
+      <li><button class="lang-toggle" id="lang-toggle">EN</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <span class="hero-badge">A Journey Through Sound</span>
+    <h1><span class="zh">西方古典音乐史</span><span class="en">A History of Western Classical Music</span></h1>
+    <p class="hero-sub"><span class="zh">从文艺复兴的复调之美，到巴洛克的繁复华丽，再到浪漫主义的情感洪流——跨越六百年的音符旅程。</span><span class="en">From the polyphonic beauty of the Renaissance, through the ornate grandeur of the Baroque, to the emotional torrents of Romanticism — a six-century journey in sound.</span></p>
+    <div class="hero-divider"></div>
+    <p class="hero-note"><span class="zh">"音乐是灵魂的语言，超越一切言语的表达。"</span><span class="en">"Music is the language of the soul, transcending all words."</span></p>
+    <a class="scroll-hint" href="#timeline"><span class="zh">向下探索</span><span class="en">Explore</span></a>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline">
+    <p class="section-label"><span class="zh">历史脉络</span><span class="en">Historical Thread</span></p>
+    <h2 class="section-title"><span class="zh">六百年音乐年表</span><span class="en">Six Centuries of Music</span></h2>
+    <p class="section-desc"><span class="zh">西方古典音乐的演变横跨六个主要时期，每个时代都有其独特的美学理念与创作语言。</span><span class="en">Western classical music evolved across six major periods, each with its own aesthetic ideals and creative language.</span></p>
+    <div class="timeline-strip">
+      <a class="tl-dot" href="#period-renaissance"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">文艺复兴</span><span class="en">Renaissance</span><br/>1400</span></a>
+      <a class="tl-dot" href="#period-baroque"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">巴洛克</span><span class="en">Baroque</span><br/>1600</span></a>
+      <a class="tl-dot" href="#period-classical"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">古典</span><span class="en">Classical</span><br/>1750</span></a>
+      <a class="tl-dot" href="#period-romantic"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">浪漫</span><span class="en">Romantic</span><br/>1820</span></a>
+      <a class="tl-dot" href="#period-impressionism"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">印象</span><span class="en">Impressionism</span><br/>1890</span></a>
+      <a class="tl-dot" href="#period-modern"><div class="tl-dot-inner"></div><span class="tl-label"><span class="zh">现代</span><span class="en">Modern</span><br/>1910</span></a>
+    </div>
+  </section>
+
+  <!-- Period Cards -->
+  <section id="periods">
+    <p class="section-label"><span class="zh">六大时期</span><span class="en">Six Periods</span></p>
+    <h2 class="section-title"><span class="zh">音乐时代概览</span><span class="en">Musical Eras at a Glance</span></h2>
+    <p class="section-desc"><span class="zh">每个时代的音乐都折射出当时的社会思潮、宗教信仰与人文精神。</span><span class="en">The music of each era reflects the social currents, religious beliefs, and humanistic spirit of its time.</span></p>
+
+    <div class="cards-grid">
+
+      <div class="period-card card-renaissance" id="period-renaissance">
+        <div class="card-era">Renaissance</div>
+        <h3 class="card-title"><span class="zh">文艺复兴时期</span><span class="en">The Renaissance</span></h3>
+        <p class="card-period"><span class="zh">约 1400 — 1600 年</span><span class="en">c. 1400 — 1600</span></p>
+        <p class="card-desc"><span class="zh">以人文主义精神为核心，音乐从宗教礼仪中缓缓走向世俗。复调音乐（Polyphony）达到巅峰，多声部和声织体精妙绝伦，弥撒曲与经文歌构成了这一时代最壮阔的声音图景。</span><span class="en">Guided by humanist ideals, music gradually moved from sacred liturgy toward the secular. Polyphony reached its zenith — exquisitely woven multi-voice textures in masses and motets formed the grandest soundscape of the age.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=josquin"><span class="zh">若斯坎·德普雷</span><span class="en">Josquin des Prez</span></a>
+          <a class="composer-tag" href="composer.html?id=palestrina"><span class="zh">帕莱斯特里纳</span><span class="en">Palestrina</span></a>
+          <a class="composer-tag" href="composer.html?id=lasso"><span class="zh">奥兰多·迪·拉索</span><span class="en">Orlando di Lasso</span></a>
+          <a class="composer-tag" href="composer.html?id=byrd"><span class="zh">威廉·伯德</span><span class="en">William Byrd</span></a>
+        </div>
+        <div class="card-icon">♬</div>
+      </div>
+
+      <div class="period-card card-baroque" id="period-baroque">
+        <div class="card-era">Baroque</div>
+        <h3 class="card-title"><span class="zh">巴洛克时期</span><span class="en">The Baroque</span></h3>
+        <p class="card-period"><span class="zh">约 1600 — 1750 年</span><span class="en">c. 1600 — 1750</span></p>
+        <p class="card-desc"><span class="zh">装饰繁复、情感强烈、对比鲜明。数字低音（Basso Continuo）奠定和声基础，协奏曲、奏鸣曲与歌剧相继诞生。巴赫的对位、亨德尔的宏大、维瓦尔第的活泼，共同塑造了这个辉煌时代。</span><span class="en">Ornate, emotionally intense, and rich in contrast. The basso continuo laid harmonic foundations while the concerto, sonata, and opera emerged. Bach's counterpoint, Handel's grandeur, and Vivaldi's vivacity together forged this magnificent era.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=bach"><span class="zh">约翰·塞巴斯蒂安·巴赫</span><span class="en">J. S. Bach</span></a>
+          <a class="composer-tag" href="composer.html?id=handel"><span class="zh">亨德尔</span><span class="en">Handel</span></a>
+          <a class="composer-tag" href="composer.html?id=vivaldi"><span class="zh">维瓦尔第</span><span class="en">Vivaldi</span></a>
+          <a class="composer-tag" href="composer.html?id=monteverdi"><span class="zh">蒙特威尔第</span><span class="en">Monteverdi</span></a>
+          <a class="composer-tag" href="composer.html?id=pachelbel"><span class="zh">帕赫贝尔</span><span class="en">Pachelbel</span></a>
+        </div>
+        <div class="card-icon">𝄢</div>
+      </div>
+
+      <div class="period-card card-classical" id="period-classical">
+        <div class="card-era">Classical</div>
+        <h3 class="card-title"><span class="zh">古典主义时期</span><span class="en">The Classical Period</span></h3>
+        <p class="card-period"><span class="zh">约 1750 — 1820 年</span><span class="en">c. 1750 — 1820</span></p>
+        <p class="card-desc"><span class="zh">追求均衡、清晰与理性的美学秩序，奏鸣曲式（Sonata Form）成为最重要的结构原则。维也纳古典乐派三杰——海顿、莫扎特与贝多芬——将交响曲、弦乐四重奏与钢琴奏鸣曲推向了艺术的高峰。</span><span class="en">Pursuing balance, clarity, and rational aesthetic order, sonata form became the paramount structural principle. The three Viennese masters — Haydn, Mozart, and Beethoven — elevated the symphony, string quartet, and piano sonata to their artistic zenith.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=mozart"><span class="zh">莫扎特</span><span class="en">Mozart</span></a>
+          <a class="composer-tag" href="composer.html?id=haydn"><span class="zh">海顿</span><span class="en">Haydn</span></a>
+          <a class="composer-tag" href="composer.html?id=beethoven"><span class="zh">贝多芬</span><span class="en">Beethoven</span></a>
+          <a class="composer-tag" href="composer.html?id=clementi"><span class="zh">克莱门蒂</span><span class="en">Clementi</span></a>
+        </div>
+        <div class="card-icon">♩</div>
+      </div>
+
+      <div class="period-card card-romantic" id="period-romantic">
+        <div class="card-era">Romantic</div>
+        <h3 class="card-title"><span class="zh">浪漫主义时期</span><span class="en">The Romantic Era</span></h3>
+        <p class="card-period"><span class="zh">约 1820 — 1900 年</span><span class="en">c. 1820 — 1900</span></p>
+        <p class="card-desc"><span class="zh">个人情感、民族精神与文学幻想统摄一切。管弦乐规模空前扩大，标题音乐与交响诗蓬勃兴起。钢琴成为浪漫主义的灵魂乐器，肖邦与李斯特为其写下了最深情的诗篇。</span><span class="en">Personal emotion, national spirit, and literary fantasy reigned supreme. Orchestras expanded to unprecedented scale, and programme music and the symphonic poem flourished. The piano became Romanticism's soul instrument, with Chopin and Liszt composing its most heartfelt poetry.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=chopin"><span class="zh">肖邦</span><span class="en">Chopin</span></a>
+          <a class="composer-tag" href="composer.html?id=schumann"><span class="zh">舒曼</span><span class="en">Schumann</span></a>
+          <a class="composer-tag" href="composer.html?id=brahms"><span class="zh">勃拉姆斯</span><span class="en">Brahms</span></a>
+          <a class="composer-tag" href="composer.html?id=liszt"><span class="zh">李斯特</span><span class="en">Liszt</span></a>
+          <a class="composer-tag" href="composer.html?id=tchaikovsky"><span class="zh">柴可夫斯基</span><span class="en">Tchaikovsky</span></a>
+          <a class="composer-tag" href="composer.html?id=wagner"><span class="zh">瓦格纳</span><span class="en">Wagner</span></a>
+        </div>
+        <div class="card-icon">♫</div>
+      </div>
+
+      <div class="period-card" id="period-impressionism" style="--card-accent: linear-gradient(90deg, #2e6b4a, #4ab88a);">
+        <div class="card-era">Impressionism</div>
+        <h3 class="card-title"><span class="zh">印象主义时期</span><span class="en">Impressionism</span></h3>
+        <p class="card-period"><span class="zh">约 1890 — 1920 年</span><span class="en">c. 1890 — 1920</span></p>
+        <p class="card-desc"><span class="zh">受莫奈、马拉美等视觉艺术家启发，音乐开始描绘光影与色彩的瞬息变化。德彪西解放了和声，打破传统调性束缚，用音色与音响本身作为表达媒介，创造出朦胧而精致的声音世界。</span><span class="en">Inspired by Monet, Mallarmé, and other visual artists, music began to depict the fleeting play of light and color. Debussy liberated harmony, broke free of traditional tonality, and used timbre itself as a medium of expression, creating a hazy yet exquisite sonic world.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=debussy"><span class="zh">德彪西</span><span class="en">Debussy</span></a>
+          <a class="composer-tag" href="composer.html?id=ravel"><span class="zh">拉威尔</span><span class="en">Ravel</span></a>
+          <a class="composer-tag" href="composer.html?id=faure"><span class="zh">福雷</span><span class="en">Fauré</span></a>
+          <a class="composer-tag" href="composer.html?id=satie"><span class="zh">萨蒂</span><span class="en">Satie</span></a>
+        </div>
+        <div class="card-icon">≈</div>
+      </div>
+
+      <div class="period-card card-modern" id="period-modern">
+        <div class="card-era">Modern & Beyond</div>
+        <h3 class="card-title"><span class="zh">现代主义时期</span><span class="en">The Modern Era</span></h3>
+        <p class="card-period"><span class="zh">1910 年至今</span><span class="en">1910 — Present</span></p>
+        <p class="card-desc"><span class="zh">调性体系被彻底颠覆。十二音技法、无调性音乐、序列主义相继登场。斯特拉文斯基以原始节奏震惊世界，勋伯格重写了音乐的语法，而简约主义则在喧嚣中寻回一份禅意的静谧。</span><span class="en">The tonal system was utterly overturned. Twelve-tone technique, atonality, and serialism took the stage in turn. Stravinsky shocked the world with primal rhythms, Schoenberg rewrote the grammar of music, and Minimalism found Zen-like stillness amid the noise.</span></p>
+        <div class="card-composers">
+          <a class="composer-tag" href="composer.html?id=stravinsky"><span class="zh">斯特拉文斯基</span><span class="en">Stravinsky</span></a>
+          <a class="composer-tag" href="composer.html?id=schoenberg"><span class="zh">勋伯格</span><span class="en">Schoenberg</span></a>
+          <a class="composer-tag" href="composer.html?id=shostakovich"><span class="zh">肖斯塔科维奇</span><span class="en">Shostakovich</span></a>
+          <a class="composer-tag" href="composer.html?id=bartok"><span class="zh">巴托克</span><span class="en">Bartók</span></a>
+          <a class="composer-tag" href="composer.html?id=glass"><span class="zh">菲利普·格拉斯</span><span class="en">Philip Glass</span></a>
+        </div>
+        <div class="card-icon">𝄞</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section id="quote">
+    <blockquote>
+      <p><span class="zh">音乐能表达那些无法言说、却又不可能对其保持沉默的东西。</span><span class="en">Music expresses that which cannot be said and on which it is impossible to be silent.</span></p>
+      <cite>— <span class="zh">维克多·雨果</span><span class="en">Victor Hugo</span></cite>
+    </blockquote>
+  </section>
+
+  <!-- Composers Spotlight -->
+  <section id="composers">
+    <p class="section-label"><span class="zh">群星闪耀</span><span class="en">Stellar Luminaries</span></p>
+    <h2 class="section-title"><span class="zh">十位伟大作曲家</span><span class="en">Ten Great Composers</span></h2>
+    <p class="section-desc"><span class="zh">他们用音符改变了世界的聆听方式，留下了永恒的精神遗产。</span><span class="en">They changed the way the world listens, leaving behind an eternal spiritual legacy.</span></p>
+
+    <div class="composers-grid">
+      <a class="composer-card" href="composer.html?id=bach">
+        <div class="composer-avatar">B</div>
+        <div class="composer-name"><span class="zh">约翰·塞巴斯蒂安·巴赫</span><span class="en">J. S. Bach</span></div>
+        <div class="composer-years">1685 — 1750</div>
+        <div class="composer-known"><span class="zh">《马太受难曲》《哥德堡变奏曲》《平均律键盘曲集》</span><span class="en">St Matthew Passion · Goldberg Variations · The Well-Tempered Clavier</span></div>
+        <span class="composer-era-badge"><span class="zh">巴洛克</span><span class="en">Baroque</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=mozart">
+        <div class="composer-avatar">M</div>
+        <div class="composer-name"><span class="zh">沃尔夫冈·莫扎特</span><span class="en">W. A. Mozart</span></div>
+        <div class="composer-years">1756 — 1791</div>
+        <div class="composer-known"><span class="zh">《魔笛》《安魂曲》《第 40 号交响曲》</span><span class="en">The Magic Flute · Requiem · Symphony No. 40</span></div>
+        <span class="composer-era-badge"><span class="zh">古典</span><span class="en">Classical</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=beethoven">
+        <div class="composer-avatar">V</div>
+        <div class="composer-name"><span class="zh">路德维希·贝多芬</span><span class="en">Ludwig van Beethoven</span></div>
+        <div class="composer-years">1770 — 1827</div>
+        <div class="composer-known"><span class="zh">《第九交响曲》《命运》《月光奏鸣曲》</span><span class="en">Symphony No. 9 · "Fate" · "Moonlight" Sonata</span></div>
+        <span class="composer-era-badge"><span class="zh">古典→浪漫</span><span class="en">Classical → Romantic</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=chopin">
+        <div class="composer-avatar">C</div>
+        <div class="composer-name"><span class="zh">弗里德里克·肖邦</span><span class="en">Frédéric Chopin</span></div>
+        <div class="composer-years">1810 — 1849</div>
+        <div class="composer-known"><span class="zh">夜曲、叙事曲、练习曲、圆舞曲</span><span class="en">Nocturnes · Ballades · Études · Waltzes</span></div>
+        <span class="composer-era-badge"><span class="zh">浪漫</span><span class="en">Romantic</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=tchaikovsky">
+        <div class="composer-avatar">T</div>
+        <div class="composer-name"><span class="zh">柴可夫斯基</span><span class="en">Tchaikovsky</span></div>
+        <div class="composer-years">1840 — 1893</div>
+        <div class="composer-known"><span class="zh">《天鹅湖》《胡桃夹子》《第一钢琴协奏曲》</span><span class="en">Swan Lake · The Nutcracker · Piano Concerto No. 1</span></div>
+        <span class="composer-era-badge"><span class="zh">浪漫</span><span class="en">Romantic</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=wagner">
+        <div class="composer-avatar">W</div>
+        <div class="composer-name"><span class="zh">理查德·瓦格纳</span><span class="en">Richard Wagner</span></div>
+        <div class="composer-years">1813 — 1883</div>
+        <div class="composer-known"><span class="zh">《尼伯龙根的指环》《特里斯坦与伊索尔德》</span><span class="en">Der Ring des Nibelungen · Tristan und Isolde</span></div>
+        <span class="composer-era-badge"><span class="zh">浪漫</span><span class="en">Romantic</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=debussy">
+        <div class="composer-avatar">D</div>
+        <div class="composer-name"><span class="zh">克劳德·德彪西</span><span class="en">Claude Debussy</span></div>
+        <div class="composer-years">1862 — 1918</div>
+        <div class="composer-known"><span class="zh">《月光》《牧神午后前奏曲》《大海》</span><span class="en">Clair de lune · Prélude à l'après-midi d'un faune · La mer</span></div>
+        <span class="composer-era-badge"><span class="zh">印象</span><span class="en">Impressionism</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=stravinsky">
+        <div class="composer-avatar">S</div>
+        <div class="composer-name"><span class="zh">伊戈尔·斯特拉文斯基</span><span class="en">Igor Stravinsky</span></div>
+        <div class="composer-years">1882 — 1971</div>
+        <div class="composer-known"><span class="zh">《春之祭》《火鸟》《彼得鲁什卡》</span><span class="en">The Rite of Spring · The Firebird · Petrushka</span></div>
+        <span class="composer-era-badge"><span class="zh">现代</span><span class="en">Modern</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=brahms">
+        <div class="composer-avatar">B</div>
+        <div class="composer-name"><span class="zh">约翰内斯·勃拉姆斯</span><span class="en">Johannes Brahms</span></div>
+        <div class="composer-years">1833 — 1897</div>
+        <div class="composer-known"><span class="zh">《德意志安魂曲》《第四交响曲》小提琴协奏曲</span><span class="en">A German Requiem · Symphony No. 4 · Violin Concerto</span></div>
+        <span class="composer-era-badge"><span class="zh">浪漫</span><span class="en">Romantic</span></span>
+      </a>
+
+      <a class="composer-card" href="composer.html?id=handel">
+        <div class="composer-avatar">H</div>
+        <div class="composer-name"><span class="zh">格奥尔格·弗里德里希·亨德尔</span><span class="en">G. F. Handel</span></div>
+        <div class="composer-years">1685 — 1759</div>
+        <div class="composer-known"><span class="zh">《弥赛亚》《水上音乐》《皇家焰火》</span><span class="en">Messiah · Water Music · Music for the Royal Fireworks</span></div>
+        <span class="composer-era-badge"><span class="zh">巴洛克</span><span class="en">Baroque</span></span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">♩ <span class="zh">西方古典音乐史</span><span class="en">Western Classical Music</span></div>
+    <div class="footer-divider"></div>
+    <p class="footer-text">
+      <span class="zh">本页面涵盖文艺复兴至现代主义六大音乐时期<br/>内容仅供音乐爱好者学习与欣赏之用</span><span class="en">Covering six major periods from the Renaissance to Modernism<br/>For music lovers' study and appreciation</span><br/><br/>
+      <span style="color: var(--gold-dk);">© 2026 · <span class="zh">以音乐之名，致所有热爱聆听的灵魂</span><span class="en">In the name of music, to all who love to listen</span></span>
+    </p>
+  </footer>
+
+  <script>
+  (function() {
+    var lang = localStorage.getItem('lang') || 'zh';
+    var btn = document.getElementById('lang-toggle');
+    if (lang === 'en') document.body.classList.add('lang-en');
+    btn.textContent = lang === 'en' ? '中文' : 'EN';
+    btn.addEventListener('click', function() {
+      document.body.classList.toggle('lang-en');
+      var isEn = document.body.classList.contains('lang-en');
+      localStorage.setItem('lang', isEn ? 'en' : 'zh');
+      btn.textContent = isEn ? '中文' : 'EN';
+    });
+  })();
+  </script>
+
+</body>
+</html>

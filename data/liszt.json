@@ -1,0 +1,25 @@
+{
+  "id": "liszt",
+  "name": "弗朗茨·李斯特",
+  "nameEn": "Franz Liszt",
+  "years": "1811 — 1886",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "L",
+  "brief": "李斯特出生于匈牙利的莱丁（今奥地利境内），被公认为音乐史上最伟大的钢琴演奏家。他是第一位举办现代意义上的独奏音乐会（Recital）的钢琴家，所到之处引发近乎疯狂的「李斯特狂热」（Lisztomania）。中年后他退出舞台，定居魏玛专注于作曲与指挥，晚年接受低品神职成为修道院院长。他的慷慨无私在音乐界传为佳话——他无偿帮助了无数年轻音乐家，包括瓦格纳。",
+  "briefEn": "Liszt was born in Raiding, Hungary (now in Austria), and is widely regarded as the greatest pianist in the history of music. He was the first to give solo piano recitals in the modern sense, sparking near-hysterical 'Lisztomania' wherever he performed. In middle age he retired from the concert stage and settled in Weimar to focus on composing and conducting; in his later years he took minor holy orders and became an abbe. His legendary generosity toward fellow musicians — he aided countless young artists, including Wagner, free of charge — remains celebrated to this day.",
+  "contribution": "李斯特发明了交响诗（Symphonic Poem）这一全新体裁，将文学、绘画与哲学的内容注入管弦乐。他开创了「主题变形」（Thematic Transformation）技法——一个主题在作品中不断变形以表达不同情感和场景。他是最早在音乐中系统使用匈牙利音阶和吉普赛元素的作曲家，对民族乐派产生了深远影响。",
+  "contributionEn": "Liszt invented the symphonic poem, an entirely new genre that infused orchestral music with literary, visual, and philosophical content. He pioneered the technique of thematic transformation — reshaping a single motif throughout a work to express different emotions and scenes. He was among the first composers to systematically employ Hungarian scales and Roma musical elements, profoundly influencing the nationalist schools that followed.",
+  "style": "李斯特的音乐风格跨度极大。早中期作品以炫目的钢琴技巧和华丽的管弦乐效果著称——八度狂飙、震音轰鸣、大幅度跳跃，将钢琴的物理极限推到了前所未有的高度。然而晚期作品（如《灰色的云》《悲伤的贡多拉》）则走向了另一个极端——极度简约、和声模糊、充满空白与沉默，预示了德彪西甚至20世纪的实验音乐。",
+  "styleEn": "Liszt's stylistic range is enormous. His early and middle-period works dazzle with virtuosic pianism and orchestral brilliance — thundering octaves, roaring tremolos, and sweeping leaps that pushed the physical limits of the piano to unprecedented extremes. His late works, however, such as Nuages gris and La lugubre gondola, move to the opposite pole — radically spare, harmonically ambiguous, filled with silence and empty space, foreshadowing Debussy and even the experimental music of the twentieth century.",
+  "famousScores": [
+    { "name": "《b小调奏鸣曲》 S.178", "nameEn": "Piano Sonata in B minor, S. 178", "desc": "单乐章奏鸣曲，浪漫主义钢琴文献中最宏伟的建筑", "descEn": "A single-movement sonata and the grandest architectural achievement in the Romantic piano repertoire" },
+    { "name": "《超技练习曲》 S.139", "nameEn": "Transcendental Etudes, S. 139", "desc": "12首练习曲，钢琴技巧的珠穆朗玛峰", "descEn": "Twelve etudes representing the Everest of piano technique" },
+    { "name": "《匈牙利狂想曲》 S.244", "nameEn": "Hungarian Rhapsodies, S. 244", "desc": "19首，尤以第2号最为著名，汤姆和杰瑞的经典配乐", "descEn": "Nineteen rhapsodies — No. 2 is the most famous, immortalized in the Tom and Jerry cartoons" },
+    { "name": "《前奏曲》 S.97", "nameEn": "Les Preludes, S. 97", "desc": "最著名的交响诗，人生如一系列前奏曲", "descEn": "His most celebrated symphonic poem: life as a series of preludes" },
+    { "name": "《爱之梦》第三首 S.541", "nameEn": "Liebestraum No. 3, S. 541", "desc": "「只要你能爱」，可能是李斯特最优美的旋律", "descEn": "'O Love, as Long as You Can' — perhaps Liszt's most beautiful melody" }
+  ],
+  "influence": "李斯特的影响广泛而深远。他的和声冒险——增三和弦的使用、全音阶、模糊调性——直接启发了瓦格纳的《特里斯坦和弦》和德彪西的印象主义。他发明的交响诗被理查·施特劳斯发扬光大。他的晚期作品的极端简约预示了梅西安和凯奇。作为教师，他免费教导了数百名学生，从中走出了整整一代钢琴学派的创始人。他发明了现代钢琴独奏会的模式。",
+  "influenceEn": "Liszt's influence is vast and far-reaching. His harmonic daring — augmented triads, whole-tone scales, tonal ambiguity — directly inspired Wagner's Tristan chord and Debussy's Impressionism. The symphonic poem he invented was carried to new heights by Richard Strauss. The radical austerity of his late works anticipated Messiaen and Cage. As a teacher, he coached hundreds of students free of charge, producing an entire generation of founders of modern piano schools. He also invented the format of the modern solo recital.",
+  "spotifyLink": "https://open.spotify.com/artist/1385hLNbrnbCJGokfH2ac2"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ravel",
+  "name": "莫里斯·拉威尔",
+  "nameEn": "Maurice Ravel",
+  "years": "1875 — 1937",
+  "period": "印象主义",
+  "periodEn": "Impressionism",
+  "avatar": "R",
+  "brief": "拉威尔出生于法国西南部靠近西班牙边境的希布尔，母亲是巴斯克人，这一血统对他的音乐产生了深远影响。他在巴黎音乐学院师从福雷，曾五次角逐罗马大奖均告失败，引发了著名的「拉威尔事件」丑闻。一战期间他执意参军，担任卡车司机。他终身未婚，生活精致而孤独。1932年遭遇车祸后逐渐出现脑部疾病症状，最终不能写作、说话，1937年在脑部手术后去世。",
+  "briefEn": "Ravel was born in Ciboure, near the Spanish border in southwestern France. His mother was Basque, a heritage that profoundly shaped his music. He studied under Fauré at the Paris Conservatoire and failed to win the Prix de Rome five times — a controversy that became the infamous \"Ravel affair.\" During World War I he insisted on enlisting, serving as a truck driver. He never married and led a life of refined solitude. After a taxi accident in 1932 he gradually developed neurological deterioration, eventually losing the ability to write or speak. He died in 1937 following brain surgery.",
+  "contribution": "拉威尔被斯特拉文斯基称为「瑞士钟表匠」——他的管弦乐配器术达到了西方音乐史上最精确、最辉煌的高度。他的《波莱罗》以一个简单旋律的不断重复和持续渐强展示了管弦乐色彩的无穷变化，成为20世纪最受欢迎的管弦乐作品。他将印象主义的音色探索与古典主义的形式精确完美结合，开创了一种独特的新古典印象主义风格。",
+  "contributionEn": "Stravinsky famously called Ravel \"the Swiss watchmaker\" — his orchestration reached a degree of precision and brilliance unmatched in Western music. Boléro, built on a single melody in relentless repetition and crescendo, showcases an inexhaustible kaleidoscope of orchestral color and became the most popular orchestral work of the twentieth century. He fused Impressionist timbral exploration with Classical formal rigor, forging a distinctive neo-Classical Impressionist idiom.",
+  "style": "拉威尔的音乐以精密如钟表的工艺和华丽绚烂的音色著称。与德彪西的朦胧不同，拉威尔的音乐轮廓清晰、节奏精确、结构明朗。他对西班牙音乐和爵士乐的吸收比任何同时代法国作曲家都更加深入。他的钢琴作品将炫技性与音乐性推向了极致——《加斯巴尔之夜》至今仍是钢琴文献中最难的作品之一。",
+  "styleEn": "Ravel's music is renowned for its clockwork craftsmanship and dazzling orchestral color. Where Debussy is hazy, Ravel is sharply defined — rhythmically precise, structurally lucid, every contour etched with care. He absorbed Spanish music and jazz more deeply than any French contemporary. His piano writing pushes virtuosity and musicality to their limits — Gaspard de la nuit remains one of the most technically demanding works in the entire piano repertoire.",
+  "famousScores": [
+    { "name": "《波莱罗》", "nameEn": "Boléro", "desc": "单一旋律的不断重复与渐强，管弦乐配器的万花筒", "descEn": "A single melody in ceaseless repetition and crescendo — a kaleidoscope of orchestral color" },
+    { "name": "《达芙妮与克洛伊》", "nameEn": "Daphnis et Chloé", "desc": "为迪亚基列夫的俄罗斯芭蕾舞团而作，管弦乐的极致华美", "descEn": "Written for Diaghilev's Ballets Russes, an orchestral tour de force of ravishing beauty" },
+    { "name": "《加斯巴尔之夜》", "nameEn": "Gaspard de la nuit", "desc": "三首钢琴诗，被认为是钢琴文献中技术最难的作品之一", "descEn": "Three piano poems widely regarded as one of the most technically formidable works in the repertoire" },
+    { "name": "《G大调钢琴协奏曲》", "nameEn": "Piano Concerto in G major", "desc": "融合爵士元素，慢乐章是拉威尔最深情的旋律", "descEn": "Infused with jazz, its slow movement contains Ravel's most tenderly lyrical melody" },
+    { "name": "《鹅妈妈组曲》", "nameEn": "Ma mère l'Oye", "desc": "原为四手联弹，童话般的纯真与精致", "descEn": "Originally for piano four hands — fairy-tale innocence rendered with exquisite refinement" }
+  ],
+  "influence": "拉威尔的管弦乐配器技法影响了整个20世纪——从好莱坞电影配乐到爵士大乐队编曲都能听到他的影响。梅西安将拉威尔视为最重要的法国前辈；武满彻的管弦乐音色直接源自拉威尔；约翰·亚当斯的简约主义管弦乐与拉威尔的《波莱罗》有着精神上的关联。他的《G大调钢琴协奏曲》中对爵士元素的运用，预示了古典与流行音乐融合的趋势。",
+  "influenceEn": "Ravel's orchestration techniques shaped the entire twentieth century — his influence can be heard in everything from Hollywood film scores to jazz big-band arranging. Messiaen regarded him as the most important French predecessor; Tōru Takemitsu's orchestral palette descends directly from Ravel; and John Adams's minimalist orchestral writing shares a spiritual kinship with Boléro. His use of jazz elements in the Piano Concerto in G major anticipated the broader trend of classical-popular fusion.",
+  "spotifyLink": "https://open.spotify.com/artist/17hR0sYHpx7VYTMRfFUOmY"
+}

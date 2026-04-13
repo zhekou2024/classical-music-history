@@ -1,0 +1,25 @@
+{
+  "id": "pachelbel",
+  "name": "约翰·帕赫贝尔",
+  "nameEn": "Johann Pachelbel",
+  "years": "1653 — 1706",
+  "period": "巴洛克",
+  "periodEn": "Baroque",
+  "avatar": "P",
+  "brief": "帕赫贝尔出生于纽伦堡，是巴赫之前德国最重要的管风琴家和作曲家之一。他曾在维也纳、艾森纳赫、爱尔福特等地任职，在爱尔福特期间与巴赫家族结下深厚友谊——他是巴赫长兄约翰·克里斯托夫的老师，间接影响了年幼的巴赫。晚年他回到故乡纽伦堡，在圣塞巴尔德教堂担任管风琴师直至去世。",
+  "briefEn": "Born in Nuremberg, Pachelbel was one of the most important German organists and composers in the generation before Bach. He held posts in Vienna, Eisenach, and Erfurt, where he formed a close friendship with the Bach family — he was the teacher of Bach's eldest brother Johann Christoph, thereby indirectly shaping the young Johann Sebastian. In his final years he returned to his native Nuremberg, serving as organist at St. Sebaldus Church until his death.",
+  "contribution": "帕赫贝尔是德国南部管风琴学派的核心人物，他将众赞歌前奏曲（Chorale Prelude）发展成一种成熟的艺术形式，为巴赫的众赞歌创作铺平了道路。他精炼而优雅的对位风格在北德繁复的布克斯特胡德风格与意大利抒情风格之间找到了平衡点。他的卡农写作技法影响深远，至今仍是和声教学的重要范例。",
+  "contributionEn": "Pachelbel was the central figure of the South German organ school. He developed the chorale prelude into a mature art form, laying the groundwork for Bach's great achievements in the genre. His refined and elegant contrapuntal style struck a balance between the elaborate North German manner of Buxtehude and the lyrical Italian style. His canon technique has had a lasting influence and remains an essential example in the teaching of harmony.",
+  "style": "帕赫贝尔的音乐以清晰、优雅和旋律性著称。与同时代北德管风琴家的炫技风格不同，他追求的是简洁明了的美感。他的众赞歌前奏曲通常让众赞歌旋律在高声部清楚呈现，下方声部以精炼的对位加以衬托。他善于使用固定低音（Ostinato）和卡农技法，在有限的素材中创造出丰富的音乐变化。",
+  "styleEn": "Pachelbel's music is distinguished by its clarity, elegance, and melodic beauty. Unlike the virtuosic display favored by his North German contemporaries, he pursued a lucid, uncluttered aesthetic. In his chorale preludes, the hymn tune typically sounds clearly in the upper voice while the lower parts provide tasteful contrapuntal support. He had a particular gift for ostinato bass patterns and canonic writing, generating rich musical variety from the most economical material.",
+  "famousScores": [
+    { "name": "《D大调卡农》 Canon in D", "nameEn": "Canon in D", "desc": "可能是古典音乐史上最广为人知的作品，婚礼必备曲目", "descEn": "Perhaps the most universally recognized piece in all of classical music, and a staple of wedding ceremonies worldwide" },
+    { "name": "《恰空舞曲》 Chaconne in F minor", "nameEn": "Chaconne in F minor", "desc": "管风琴恰空的杰出范例，深沉而庄严", "descEn": "A superb example of the organ chaconne, solemn and deeply expressive" },
+    { "name": "众赞歌前奏曲集", "nameEn": "Chorale Preludes", "desc": "95首管风琴众赞歌前奏曲，德国管风琴文献的重要组成部分", "descEn": "Ninety-five organ chorale preludes forming a vital part of the German organ repertoire" },
+    { "name": "《赞美诗变奏曲》 Hexachordum Apollinis", "nameEn": "Hexachordum Apollinis", "desc": "六首咏叹调与变奏，键盘音乐的精品", "descEn": "Six arias with variations — refined gems of the keyboard literature" },
+    { "name": "《C大调组曲》 Partie in C Major", "nameEn": "Partie in C Major", "desc": "古钢琴组曲，优美的舞曲序列", "descEn": "A harpsichord suite of graceful dance movements" }
+  ],
+  "influence": "帕赫贝尔通过他的学生（包括巴赫的长兄）将自己的管风琴技法传递给了巴赫，他的众赞歌前奏曲直接启发了巴赫在该体裁中的伟大创作。他的《D大调卡农》在20世纪被重新发现后成为流行文化现象，其低音进行（I-V-vi-iii-IV-I-IV-V）至今仍是流行音乐中使用最频繁的和弦进行之一，被称为「帕赫贝尔进行」。",
+  "influenceEn": "Through his students — including Bach's eldest brother — Pachelbel transmitted his organ technique to Bach himself; his chorale preludes directly inspired Bach's own monumental contributions to the genre. His Canon in D, rediscovered in the twentieth century, became a cultural phenomenon. Its bass progression (I-V-vi-iii-IV-I-IV-V) remains one of the most frequently used chord sequences in popular music, widely known as the 'Pachelbel progression.'",
+  "spotifyLink": "https://open.spotify.com/artist/62TD7509VQIxUe4WpwO0s3"
+}

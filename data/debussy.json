@@ -1,0 +1,25 @@
+{
+  "id": "debussy",
+  "name": "克劳德·德彪西",
+  "nameEn": "Claude Debussy",
+  "years": "1862 — 1918",
+  "period": "印象主义",
+  "periodEn": "Impressionism",
+  "avatar": "D",
+  "brief": "德彪西出生于巴黎西郊的圣日耳曼昂莱，家境普通。他在巴黎音乐学院学习期间就以叛逆著称——他的和声练习常常让老师恼怒。1889年巴黎世博会上听到爪哇甘美兰音乐的经历深刻影响了他的创作方向。他是一位完美主义者和孤独的革新者，生活中经历了多段复杂的感情关系。1918年在第一次世界大战的炮声中因结肠癌在巴黎去世。",
+  "briefEn": "Debussy was born in Saint-Germain-en-Laye, west of Paris, into a modest family. He was known as a rebel during his years at the Paris Conservatoire — his harmony exercises routinely exasperated his professors. Hearing Javanese gamelan music at the 1889 Paris Exposition profoundly altered the course of his creative thinking. A perfectionist and a solitary innovator, he lived through several turbulent romantic relationships. He died of colorectal cancer in Paris in 1918, amid the bombardments of the First World War.",
+  "contribution": "德彪西被称为「音乐中的印象派」，尽管他本人拒绝这个标签。他彻底打破了德奥传统和声的统治——不再用和弦解决到调性中心，而是让和弦本身成为色彩和光影的载体。他将全音阶、五声音阶、平行和弦等「禁忌」技法引入严肃音乐，创造了一种全新的声音美学。他的《牧神午后前奏曲》被视为现代音乐的起点。",
+  "contributionEn": "Debussy is often called the Impressionist of music, though he himself rejected the label. He shattered the dominance of Austro-German harmonic conventions — rather than resolving chords to a tonal center, he let harmonies stand as carriers of color and light in their own right. He introduced whole-tone scales, pentatonic scales, and parallel chords — formerly forbidden devices — into serious composition, forging an entirely new sonic aesthetic. His Prelude a l'apres-midi d'un faune is widely regarded as the starting point of modern music.",
+  "style": "德彪西的音乐追求的是音响的色彩与光影变化，而非传统意义上的主题发展和逻辑叙事。他的钢琴作品创造了前所未有的音响世界——踏板、泛音、极高和极低音区的运用形成了一种朦胧而精致的声音织体。他的管弦乐配器精妙绝伦，以少胜多，每一种乐器都获得了独特的音色个性。他的音乐如同印象派绘画般，用光与色彩捕捉瞬间的感受。",
+  "styleEn": "Debussy's music pursues tonal color and the play of light rather than traditional thematic development or logical narrative. His piano works create an unprecedented sonic world — through the use of the sustain pedal, overtones, and the extreme high and low registers, he fashioned a luminous, hazy tonal fabric. His orchestration is exquisitely refined, achieving maximum effect with minimal means, granting each instrument a distinctive timbral personality. Like Impressionist painting, his music captures fleeting sensations through light and color.",
+  "famousScores": [
+    { "name": "《牧神午后前奏曲》", "nameEn": "Prelude a l'apres-midi d'un faune", "desc": "受马拉美诗歌启发，被布列兹称为「现代音乐的开端」", "descEn": "Inspired by Mallarme's poem; Boulez called it 'the beginning of modern music'" },
+    { "name": "《大海》", "nameEn": "La Mer", "desc": "三幅交响素描，用管弦乐描绘大海的光影变幻", "descEn": "Three symphonic sketches painting the sea's shifting light and shadow in orchestral color" },
+    { "name": "《月光》（《贝加马斯克组曲》第三首）", "nameEn": "Clair de lune (Suite bergamasque, III)", "desc": "钢琴音乐中最美的夜景，月光下的诗意流淌", "descEn": "The most beautiful nocturnal landscape in piano music — poetry flowing in moonlight" },
+    { "name": "《前奏曲集》两册", "nameEn": "Preludes, Books I & II", "desc": "24首钢琴印象画，从《沉没的教堂》到《焰火》", "descEn": "Twenty-four pianistic impressions, from La cathedrale engloutie to Feux d'artifice" },
+    { "name": "《佩利亚斯与梅丽桑德》", "nameEn": "Pelleas et Melisande", "desc": "唯一完成的歌剧，以低语般的声乐线条颠覆了歌剧传统", "descEn": "His only completed opera, overturning operatic convention with whispered vocal lines" }
+  ],
+  "influence": "德彪西的影响是全方位的。拉威尔从他的音色探索中发展出更加精确的管弦乐技法；梅西安将他的调式思维发展为「有限移位调式」；武满彻从他的音乐中找到了日本美学与西方音乐的接点。他对爵士和声的影响同样深远——比尔·埃文斯和赫比·汉考克的和声语言与德彪西一脉相承。他用东方的眼光刷新了西方音乐，开启了20世纪音乐的多元化道路。",
+  "influenceEn": "Debussy's influence is all-encompassing. Ravel refined his timbral explorations into a more precise orchestral technique; Messiaen extended his modal thinking into the modes of limited transposition; Toru Takemitsu found in his music a meeting point between Japanese aesthetics and Western composition. His impact on jazz harmony is equally profound — the harmonic languages of Bill Evans and Herbie Hancock descend directly from Debussy. By viewing Western music through an Eastern lens, he opened the way for the pluralistic paths of twentieth-century music.",
+  "spotifyLink": "https://open.spotify.com/artist/1Uff91EOsvd99rtAupatMP"
+}

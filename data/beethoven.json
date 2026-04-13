@@ -1,0 +1,25 @@
+{
+  "id": "beethoven",
+  "name": "路德维希·范·贝多芬",
+  "nameEn": "Ludwig van Beethoven",
+  "years": "1770 — 1827",
+  "period": "古典主义→浪漫主义",
+  "periodEn": "Classical → Romantic",
+  "avatar": "V",
+  "brief": "贝多芬出生于波恩的一个音乐家庭，父亲酗酒且试图将他塑造为第二个莫扎特。1792年他前往维也纳，此后再未离开。约从1796年起听力开始衰退，到1814年已几乎全聋——他用谈话簿与人交流，却在完全失聪的状态下写出了《第九交响曲》和晚期弦乐四重奏等最伟大的作品。1827年去世时，两万多人参加了他的葬礼，维也纳万人空巷。",
+  "briefEn": "Beethoven was born in Bonn into a musical family; his father was an alcoholic who tried to mold him into a second Mozart. In 1792 he moved to Vienna and never left. From around 1796 his hearing began to deteriorate, and by 1814 he was almost completely deaf — he communicated through conversation books, yet composed his greatest works, including the Ninth Symphony and the late string quartets, in total deafness. When he died in 1827, over 20,000 people attended his funeral, and the streets of Vienna came to a standstill.",
+  "contribution": "贝多芬是音乐史上最伟大的革命者。他将古典主义的形式推到了极限，并为浪漫主义打开了大门。《第三交响曲「英雄」》以其史无前例的规模和情感力量宣告了一个新时代的到来。他将交响曲从贵族沙龙的娱乐提升为人类精神的史诗，将钢琴奏鸣曲从客厅小品发展为哲学性的宏大叙事。他证明了音乐可以表达最深刻的人类思想。",
+  "contributionEn": "Beethoven was the greatest revolutionary in the history of music. He pushed Classical forms to their absolute limits and flung open the door to Romanticism. The Third Symphony ('Eroica'), with its unprecedented scale and emotional power, heralded the dawn of a new era. He elevated the symphony from aristocratic entertainment to an epic of the human spirit, and transformed the piano sonata from a parlor piece into a grand philosophical narrative. He proved that music could express the most profound human ideas.",
+  "style": "贝多芬的创作通常被分为三个时期。早期（至约1802年）继承海顿与莫扎特传统，风格明朗有力；中期（1803-1814）被称为「英雄时期」，作品规模宏大、充满戏剧性冲突与英雄主义精神；晚期（1815-1827）进入全新的精神境界——音乐变得高度内省、结构自由、和声大胆超前，常常带有一种超越性的宁静与升华。",
+  "styleEn": "Beethoven's output is traditionally divided into three periods. The early period (to c. 1802) carries on the Haydn–Mozart tradition with a bright, vigorous style. The middle period (1803–1814), known as the 'Heroic' phase, features works of vast scope filled with dramatic conflict and heroic spirit. The late period (1815–1827) enters an entirely new spiritual realm — the music becomes deeply introspective, structurally free, harmonically daring, and often suffused with a transcendent serenity and sublimity.",
+  "famousScores": [
+    { "name": "《第九交响曲「合唱」》 Op.125", "nameEn": "Symphony No. 9 'Choral,' Op. 125", "desc": "首次在交响曲中引入人声，「欢乐颂」成为欧盟盟歌", "descEn": "The first symphony to incorporate vocal soloists and chorus; its 'Ode to Joy' became the anthem of the European Union" },
+    { "name": "《第五交响曲「命运」》 Op.67", "nameEn": "Symphony No. 5 in C minor, Op. 67", "desc": "「命运叩门」的动机，可能是音乐史上最著名的四个音符", "descEn": "Its 'fate knocking at the door' motif is perhaps the most famous four notes in all of music" },
+    { "name": "《月光奏鸣曲》 Op.27 No.2", "nameEn": "Piano Sonata No. 14 'Moonlight,' Op. 27 No. 2", "desc": "第一乐章的三连音织体如月光洒落湖面", "descEn": "The first movement's triplet figuration evokes moonlight shimmering across a lake" },
+    { "name": "《第三交响曲「英雄」》 Op.55", "nameEn": "Symphony No. 3 'Eroica,' Op. 55", "desc": "原献给拿破仑，后因其称帝而愤然撕去题献页", "descEn": "Originally dedicated to Napoleon, then furiously stripped of its dedication when he crowned himself Emperor" },
+    { "name": "晚期弦乐四重奏 Op.127–135", "nameEn": "Late String Quartets, Opp. 127–135", "desc": "音乐史上最深邃的室内乐作品，至今仍令人望而生畏", "descEn": "The most profound chamber music in existence, still awe-inspiring and formidable to this day" }
+  ],
+  "influence": "贝多芬的影响贯穿整个19世纪和20世纪。瓦格纳从他的交响曲中发展出了乐剧理念；勃拉姆斯在「英雄」的阴影下迟迟不敢动笔写交响曲；马勒将贝多芬的交响规模推向了极端。他的晚期作品超越了时代，在20世纪才真正被理解——序列主义者在其中发现了无调性的萌芽，简约主义者在其中找到了静默的力量。他从根本上改变了社会对音乐家角色的认知：音乐家不再是仆人，而是先知。",
+  "influenceEn": "Beethoven's influence pervades the entire 19th and 20th centuries. Wagner developed his music-drama concept from Beethoven's symphonies; Brahms long hesitated to write a symphony under the shadow of the 'Eroica'; Mahler pushed Beethoven's symphonic scale to its extremes. His late works transcended their era and were only truly understood in the 20th century — serialists discovered the seeds of atonality in them, and minimalists found the power of silence. He fundamentally transformed society's perception of the musician: no longer a servant, but a prophet.",
+  "spotifyLink": "https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS"
+}

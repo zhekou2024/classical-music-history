@@ -1,0 +1,25 @@
+{
+  "id": "josquin",
+  "name": "若斯坎·德普雷",
+  "nameEn": "Josquin des Prez",
+  "years": "约 1450 — 1521",
+  "period": "文艺复兴",
+  "periodEn": "Renaissance",
+  "avatar": "J",
+  "brief": "若斯坎出生于法国-佛兰德斯地区，是文艺复兴时期最伟大的作曲家之一。他曾在米兰、罗马教廷和法国宫廷任职，被同时代人称为「音乐家中的王者」。马丁·路德曾赞叹：「若斯坎是音符的主人，音符必须听命于他；其他作曲家则必须听命于音符。」他的作品在整个欧洲广泛传播，印刷术的发明使他成为第一位享有国际声誉的作曲家。",
+  "briefEn": "Born in the Franco-Flemish region, Josquin was one of the greatest composers of the Renaissance. He held positions in Milan, at the Papal Chapel in Rome, and at the French royal court, earning the title 'prince of musicians' among his contemporaries. Martin Luther famously declared that Josquin was the master of the notes, which had to do as he willed, while other composers had to do as the notes willed. Thanks to the advent of music printing, his works circulated throughout Europe, making him the first composer to achieve true international fame.",
+  "contribution": "若斯坎将佛兰德复调传统推向了新的高度，他在弥撒曲和经文歌中实现了文字与音乐的深度融合——音乐不再仅是礼仪的装饰，而成为表达文本情感的工具。他开创了「模仿式复调」（Imitative Counterpoint）的写作手法，各声部依次进入，构成精妙的对话，这一技法成为后续两百年复调写作的基石。",
+  "contributionEn": "Josquin elevated the Franco-Flemish polyphonic tradition to new heights, achieving a profound union of text and music in his masses and motets — music was no longer mere liturgical ornament but became a vehicle for expressing the emotions of the text. He pioneered the technique of imitative counterpoint, in which voices enter one after another in carefully crafted dialogue, a method that would remain the cornerstone of polyphonic composition for the next two centuries.",
+  "style": "若斯坎的音乐兼具理性的精密与感性的表达。他的复调织体清晰透明，每个声部既独立又和谐统一。他善于运用留白与静默制造戏剧效果，在密集的对位段落之间穿插简洁的主调和声，形成呼吸般的节奏感。他的音乐既有宗教的庄严，也有人文主义的温暖。",
+  "styleEn": "Josquin's music unites intellectual precision with expressive depth. His polyphonic textures are luminously clear, each voice maintaining its independence while blending into a harmonious whole. He wielded silence and space to striking dramatic effect, alternating dense contrapuntal passages with moments of simple homophony to create a natural sense of breathing. His music possesses both sacred gravity and humanistic warmth.",
+  "famousScores": [
+    { "name": "《圣母颂》 Ave Maria...virgo serena", "nameEn": "Ave Maria...virgo serena", "desc": "四声部经文歌，若斯坎最著名的作品，史上第一本印刷经文歌集的开篇之作，模仿式复调的典范", "descEn": "A four-voice motet and Josquin's most famous work — the opening piece of the first printed motet anthology (1502) and a textbook example of imitative counterpoint" },
+    { "name": "《赞颂舌头弥撒》 Missa Pange lingua", "nameEn": "Missa Pange lingua", "desc": "基于圣体节赞美诗的释义弥撒，被公认为若斯坎最伟大的弥撒曲，可能也是他最后的弥撒", "descEn": "A paraphrase mass on a Corpus Christi hymn by Thomas Aquinas, widely regarded as Josquin's greatest mass and possibly his last" },
+    { "name": "《武装的人弥撒》 Missa L'homme armé super voces musicales", "nameEn": "Missa L'homme armé super voces musicales", "desc": "基于流行世俗旋律的弥撒曲，包含大量比例卡农，是对位技法的炫技之作", "descEn": "A mass on the famous secular tune featuring numerous mensuration canons — a dazzling tour de force of contrapuntal virtuosity" },
+    { "name": "《上帝怜悯我》 Miserere mei, Deus", "nameEn": "Miserere mei, Deus", "desc": "五声部经文歌，以反复的固定音型和极简手法表达深沉悲恸，诗篇51的伟大设定", "descEn": "A five-voice motet setting of Psalm 51, conveying profound grief through a recurring ostinato and strikingly austere means" },
+    { "name": "《圣母悼歌》 Stabat Mater", "nameEn": "Stabat Mater", "desc": "五声部经文歌，以Binchois的香颂'Comme femme'为定旋律，文艺复兴声乐经典", "descEn": "A five-voice motet built on the tenor of Binchois's chanson 'Comme femme desconfortée,' a Renaissance vocal masterpiece" }
+  ],
+  "influence": "若斯坎的创作理念——音乐应当服务于文字的表达——直接影响了帕莱斯特里纳、拉索等后来的复调大师。他的模仿式复调技法经由这些继承者传递到巴洛克时期，最终在巴赫的赋格中达到极致。作为第一位借助印刷术广泛传播作品的作曲家，若斯坎也开创了作曲家个人声誉的概念，改变了音乐创作的社会地位。",
+  "influenceEn": "Josquin's guiding principle — that music must serve the expression of the text — directly shaped later polyphonic masters such as Palestrina and Lasso. His imitative counterpoint technique passed through these successors into the Baroque era, reaching its ultimate fulfillment in the fugues of Bach. As the first composer whose works were widely disseminated through the printing press, Josquin also pioneered the very concept of the composer as a recognized individual, transforming the social standing of musical creation.",
+  "spotifyLink": "https://open.spotify.com/artist/31f23hmZawdqgp0sECAzE8"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "palestrina",
+  "name": "乔瓦尼·帕莱斯特里纳",
+  "nameEn": "Giovanni Pierluigi da Palestrina",
+  "years": "约 1525 — 1594",
+  "period": "文艺复兴",
+  "periodEn": "Renaissance",
+  "avatar": "P",
+  "brief": "帕莱斯特里纳出生于罗马附近的同名小镇，一生几乎未离开罗马。他先后在多座罗马教堂担任唱诗班指挥和管风琴师，最终成为圣彼得大教堂唱诗班的乐长。在特伦托会议（1545-1563）对教会音乐提出改革要求的背景下，帕莱斯特里纳以其清晰优美的复调风格证明了复调音乐可以既复杂又不损害歌词的可理解性，传说中「拯救了教会复调音乐」。",
+  "briefEn": "Palestrina was born in the small town near Rome that bears his name and spent virtually his entire life in the Eternal City. He served as choirmaster and organist at several Roman churches before rising to direct the choir of St. Peter's Basilica. When the Council of Trent (1545-1563) demanded reforms in church music, Palestrina demonstrated through his clear and beautiful polyphonic style that contrapuntal music could be complex without obscuring the sacred text — according to legend, he single-handedly saved polyphony for the Church.",
+  "contribution": "帕莱斯特里纳确立了文艺复兴复调音乐的理想典范。他的写作风格成为「古风格」（Stile Antico）的代名词，在此后数百年间被视为对位法学习的最高标准。约翰·约瑟夫·福克斯（Fux）的经典教材《通向帕纳索斯的阶梯》即以帕莱斯特里纳的风格为范本，巴赫、莫扎特、贝多芬都通过这本书学习了对位法。",
+  "contributionEn": "Palestrina established the ideal model of Renaissance polyphony. His compositional style became synonymous with the stile antico and was regarded for centuries as the supreme standard for the study of counterpoint. Johann Joseph Fux's landmark treatise Gradus ad Parnassum took Palestrina's style as its model, and through that book Bach, Mozart, and Beethoven all learned the art of counterpoint.",
+  "style": "帕莱斯特里纳的音乐以「流畅」著称——旋律线条平滑流动，避免大跳和尖锐的不协和音，各声部如丝绸般交织在一起。他的和声进行温和自然，不协和音的处理极其精细，总是通过级进运动得到解决。他的音乐追求一种超越尘世的纯净与宁静，被后人称为「音乐中的拉斐尔」。",
+  "styleEn": "Palestrina's music is celebrated for its seamless flow — melodic lines glide smoothly, avoiding wide leaps and harsh dissonances, the voices interweaving like strands of silk. His harmonic progressions feel gentle and inevitable, with dissonances handled with exquisite care, always resolved by stepwise motion. His music aspires to a purity and serenity that transcends the earthly, earning him the epithet 'the Raphael of music.'",
+  "famousScores": [
+    { "name": "《教皇马尔切洛弥撒》 Missa Papae Marcelli", "nameEn": "Missa Papae Marcelli", "desc": "六声部弥撒曲，传说因它教会才保留了复调音乐", "descEn": "A six-voice mass that, according to legend, persuaded the Church to preserve polyphonic music" },
+    { "name": "《圣母悼歌》 Stabat Mater", "nameEn": "Stabat Mater", "desc": "八声部双合唱团作品，庄严而深情", "descEn": "A majestic and deeply moving work for double choir in eight voices" },
+    { "name": "《如鹿切慕溪水》 Sicut cervus", "nameEn": "Sicut cervus", "desc": "四声部经文歌，帕莱斯特里纳最著名的经文歌，以诗篇42篇为词，模仿式复调的完美典范", "descEn": "A four-voice motet setting Psalm 42 — Palestrina's most famous motet and a perfect model of imitative polyphony" },
+    { "name": "《雅歌》 Canticum Canticorum", "nameEn": "Canticum Canticorum (Song of Songs)", "desc": "29首经文歌集，以所罗门雅歌为词，1584年出版，充满神秘的美感", "descEn": "A collection of 29 motets setting the Song of Solomon, published in 1584 and suffused with mystical beauty" },
+    { "name": "《简短弥撒》 Missa Brevis", "nameEn": "Missa Brevis", "desc": "四声部弥撒曲，1570年出版，帕莱斯特里纳最常被演唱的弥撒之一，旋律优美、织体清晰", "descEn": "A four-voice mass published in 1570 — one of Palestrina's most frequently performed masses, prized for its melodic appeal and textural clarity" }
+  ],
+  "influence": "帕莱斯特里纳的影响横跨四个世纪。他的写作风格成为天主教会宗教音乐的黄金标准，一直延续到20世纪。巴赫、莫扎特、贝多芬都通过福克斯的教材学习了帕莱斯特里纳式的对位法。19世纪的「切奇利亚运动」（Cecilian Movement）试图回归帕莱斯特里纳式的教会音乐纯净风格。他的名字至今仍是「完美复调」的同义词。",
+  "influenceEn": "Palestrina's influence spans four centuries. His compositional style became the gold standard for Catholic sacred music, a status it maintained well into the twentieth century. Bach, Mozart, and Beethoven all absorbed Palestrina-style counterpoint through Fux's treatise. The nineteenth-century Cecilian Movement sought to restore the purity of Palestrina's church style. To this day, his name remains synonymous with perfect polyphony.",
+  "spotifyLink": "https://open.spotify.com/artist/0BS8IrFmvK1tXenMULjwem"
+}

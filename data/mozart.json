@@ -1,0 +1,25 @@
+{
+  "id": "mozart",
+  "name": "沃尔夫冈·阿马德乌斯·莫扎特",
+  "nameEn": "Wolfgang Amadeus Mozart",
+  "years": "1756 — 1791",
+  "period": "古典主义",
+  "periodEn": "Classical",
+  "avatar": "M",
+  "brief": "莫扎特出生于萨尔茨堡，是音乐史上最伟大的天才。四岁作曲，六岁在欧洲各国宫廷巡演，被称为「神童」。他与父亲列奥波德的关系复杂而深刻——父亲既是他最好的老师，也是他最大的压力来源。25岁时他与萨尔茨堡大主教决裂，成为维也纳第一批独立的自由音乐家。莫扎特在短短35年的生命中留下了626部编号作品（克歇尔目录），涵盖了当时几乎所有音乐体裁。",
+  "briefEn": "Mozart was born in Salzburg and stands as perhaps the greatest genius in the history of music. He began composing at four and by six was touring the courts of Europe as a celebrated child prodigy. His relationship with his father Leopold was complex and intense — Leopold was at once his finest teacher and his greatest source of pressure. At 25 he broke with the Archbishop of Salzburg to become one of Vienna's first freelance musicians. In a mere 35 years of life, Mozart left behind 626 catalogued works (the Kochel catalogue), spanning virtually every musical genre of his time.",
+  "contribution": "莫扎特在每一个他触碰的音乐领域都达到了最高水准。他将意大利歌剧的旋律美与德国音乐的深度结合，创造出《费加罗的婚礼》《唐·乔瓦尼》等不朽的歌剧杰作。他的钢琴协奏曲系列（尤其是第20至27号）将协奏曲提升为交响性的艺术形式。他的弦乐四重奏（「海顿四重奏」）让海顿本人都为之赞叹。",
+  "contributionEn": "Mozart achieved the highest standard in every musical domain he touched. He fused the melodic beauty of Italian opera with the depth of the German tradition, creating immortal operatic masterpieces such as The Marriage of Figaro and Don Giovanni. His series of piano concertos (especially Nos. 20 through 27) elevated the concerto into a symphonic art form. His string quartets (the 'Haydn Quartets') earned the admiration of Haydn himself.",
+  "style": "莫扎特的音乐以天然的旋律美、完美的形式感和深藏不露的情感深度著称。表面上他的音乐优雅而愉悦，但在这层「美丽的面纱」之下往往隐藏着惊人的复杂性和悲剧性。他的小调作品（如第40号交响曲、d小调钢琴协奏曲）展现出一种撕心裂肺的痛苦。他的音乐如同清澈的溪水——看似简单，实则深不可测。",
+  "styleEn": "Mozart's music is renowned for its effortless melodic grace, flawless sense of form, and an emotional depth that lies just beneath the surface. On the surface his music appears elegant and delightful, yet beneath that beautiful veil often lurks astonishing complexity and tragedy. His works in minor keys — such as the Symphony No. 40 and the D minor Piano Concerto — reveal a heartrending anguish. His music is like a clear stream: seemingly simple, yet unfathomably deep.",
+  "famousScores": [
+    { "name": "《安魂曲》 K.626", "nameEn": "Requiem, K. 626", "desc": "未完成的绝笔之作，围绕其创作的神秘故事成为永恒传说", "descEn": "His unfinished final work, shrouded in mystery and legend" },
+    { "name": "《费加罗的婚礼》 K.492", "nameEn": "The Marriage of Figaro, K. 492", "desc": "喜歌剧的巅峰，人物心理刻画入木三分", "descEn": "The pinnacle of comic opera, with penetrating psychological character portraits" },
+    { "name": "《唐·乔瓦尼》 K.527", "nameEn": "Don Giovanni, K. 527", "desc": "歌剧「中的歌剧」，喜剧与悲剧的完美融合", "descEn": "The 'opera of all operas' — a seamless fusion of comedy and tragedy" },
+    { "name": "《第40号交响曲》g小调 K.550", "nameEn": "Symphony No. 40 in G minor, K. 550", "desc": "古典交响曲中最动人的悲剧性作品", "descEn": "The most poignantly tragic work in the Classical symphonic repertoire" },
+    { "name": "《第21号钢琴协奏曲》C大调 K.467", "nameEn": "Piano Concerto No. 21 in C major, K. 467", "desc": "慢乐章被称为「Elvira Madigan」，美到令人窒息", "descEn": "Its slow movement, known as the 'Elvira Madigan,' is of breathtaking beauty" }
+  ],
+  "influence": "莫扎特的影响无处不在。贝多芬早期作品深受莫扎特影响；舒伯特崇拜莫扎特的旋律天赋；柴可夫斯基视莫扎特为「音乐中的基督」；理查·施特劳斯的歌剧直接继承了莫扎特的传统。他在歌剧中对人性复杂性的深刻描绘预示了19世纪心理小说的发展。至今，莫扎特仍是演出频率最高的古典作曲家之一。",
+  "influenceEn": "Mozart's influence is pervasive. Beethoven's early works owe a deep debt to Mozart; Schubert revered his melodic gift; Tchaikovsky called him 'the Christ of music'; and Richard Strauss's operas stand as direct heirs to the Mozartean tradition. His profoundly nuanced portrayal of human complexity in opera anticipated the psychological novel of the 19th century. To this day, Mozart remains one of the most frequently performed composers in the classical repertoire.",
+  "spotifyLink": "https://open.spotify.com/artist/4NJhFmfw43RLBLjQvxDuRS"
+}

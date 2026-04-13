@@ -1,0 +1,25 @@
+{
+  "id": "schumann",
+  "name": "罗伯特·舒曼",
+  "nameEn": "Robert Schumann",
+  "years": "1810 — 1856",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "S",
+  "brief": "舒曼出生于德国茨维考，自幼热爱文学与音乐。他原本立志成为钢琴演奏家，但因过度练习损伤了右手无名指，被迫转向作曲与音乐评论。他创办了影响深远的《新音乐杂志》，以犀利而诗意的笔触评论同时代的音乐。他与钢琴家克拉拉·维克的爱情故事是音乐史上最动人的传奇之一——两人历经克拉拉父亲的强烈反对，最终通过法律诉讼获得了结婚许可。舒曼晚年精神疾病恶化，投莱茵河自杀未遂后在精神病院度过了生命最后两年。",
+  "briefEn": "Schumann was born in Zwickau, Germany, and from an early age was passionately devoted to both literature and music. He originally aspired to become a concert pianist, but after injuring the fourth finger of his right hand through overpractice, he turned to composition and music criticism. He founded the hugely influential Neue Zeitschrift fur Musik, writing about contemporary music with a sharp yet poetic pen. His love story with the pianist Clara Wieck is one of the most moving in music history — the couple endured her father's fierce opposition and ultimately won the right to marry through a court ruling. In his later years Schumann's mental illness worsened; after a failed suicide attempt in the Rhine, he spent the last two years of his life in an asylum.",
+  "contribution": "舒曼是浪漫主义音乐评论的奠基人，他通过《新音乐杂志》发现和推荐了肖邦、勃拉姆斯等一批天才作曲家。他的钢琴套曲（如《狂欢节》《童年情景》）开创了一种全新的音乐叙事方式——由多首短小的性格小品连缀而成，每首都有独特的诗意标题。他将文学性注入音乐，使钢琴作品成为浪漫主义诗歌的对应物。",
+  "contributionEn": "Schumann was the founding voice of Romantic music criticism, using his Neue Zeitschrift fur Musik to discover and champion brilliant composers such as Chopin and Brahms. His piano cycles (such as Carnaval and Scenes from Childhood) pioneered a new form of musical narrative — sequences of short character pieces, each bearing its own poetic title. He infused music with literary sensibility, making the piano work a counterpart to Romantic poetry.",
+  "style": "舒曼的音乐深受德国浪漫主义文学影响，充满诗意、幻想和双重人格的戏剧性。他虚构了两个对立的艺术人格——热情冲动的「弗洛列斯坦」和沉静梦幻的「约塞比乌斯」——并让它们在自己的作品中交替出现。他的钢琴织体丰富而饱满，旋律常常藏在内声部中，节奏运用富有创造性（大量切分与错位），和声语汇浓郁而富于色彩。",
+  "styleEn": "Schumann's music is deeply steeped in German Romantic literature, brimming with poetic fantasy and the drama of a divided self. He invented two opposing artistic alter egos — the fiery, impulsive Florestan and the quiet, dreamy Eusebius — and let them alternate throughout his works. His piano textures are rich and densely woven, with melodies often hidden in inner voices. His rhythmic writing is strikingly inventive (full of syncopation and displacement), and his harmonic language is lush and richly colorful.",
+  "famousScores": [
+    { "name": "《童年情景》 Op.15", "nameEn": "Scenes from Childhood, Op. 15", "desc": "13首钢琴小品，其中《梦幻曲》是古典音乐中最知名的旋律之一", "descEn": "13 piano miniatures; the 'Traumerei' is one of the most recognized melodies in classical music" },
+    { "name": "《狂欢节》 Op.9", "nameEn": "Carnaval, Op. 9", "desc": "21首音乐面具舞会，每曲描绘一位人物或场景", "descEn": "A musical masquerade of 21 pieces, each portraying a character or scene" },
+    { "name": "《a小调钢琴协奏曲》 Op.54", "nameEn": "Piano Concerto in A minor, Op. 54", "desc": "浪漫主义钢琴协奏曲的典范，诗意与热情并存", "descEn": "A quintessential Romantic piano concerto, blending poetic lyricism with passionate intensity" },
+    { "name": "《诗人之恋》 Op.48", "nameEn": "Dichterliebe (Poet's Love), Op. 48", "desc": "16首艺术歌曲套曲（海涅诗），艺术歌曲的巅峰", "descEn": "A cycle of 16 art songs set to Heine's poetry — a pinnacle of the Lied tradition" },
+    { "name": "《莱茵交响曲》 No.3 Op.97", "nameEn": "Symphony No. 3 'Rhenish,' Op. 97", "desc": "受莱茵河与科隆大教堂启发，壮丽而深情", "descEn": "Inspired by the Rhine and Cologne Cathedral — majestic and deeply felt" }
+  ],
+  "influence": "舒曼对勃拉姆斯的影响至关重要——他在《新音乐杂志》上撰写的《新道路》一文将年轻的勃拉姆斯推上了历史舞台。他的钢琴套曲形式影响了德彪西的《前奏曲》和巴托克的《小宇宙》。他的艺术歌曲与舒伯特并列为该体裁的最高成就，影响了沃尔夫和理查·施特劳斯。他将音乐评论提升为一门艺术，至今仍是音乐批评的范本。",
+  "influenceEn": "Schumann's influence on Brahms was pivotal — his article 'New Paths' in the Neue Zeitschrift fur Musik launched the young Brahms onto the stage of history. His piano-cycle format influenced Debussy's Preludes and Bartok's Mikrokosmos. His art songs stand alongside Schubert's as the supreme achievement in the Lied genre, shaping the work of Wolf and Richard Strauss. He elevated music criticism into an art form, and his writings remain a model for music journalism to this day.",
+  "spotifyLink": "https://open.spotify.com/artist/2UqjDAXnDxejEyE0CzfUrZ"
+}

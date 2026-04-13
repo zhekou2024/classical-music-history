@@ -1,0 +1,25 @@
+{
+  "id": "wagner",
+  "name": "理查德·瓦格纳",
+  "nameEn": "Richard Wagner",
+  "years": "1813 — 1883",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "W",
+  "brief": "瓦格纳出生于莱比锡，是音乐史上最具争议性的天才之一。他不仅是作曲家，还是剧作家、指挥家、散文家和剧院建筑师。他的一生充满戏剧性——政治流亡、债务缠身、与李斯特女儿柯西玛的婚外情、巴伐利亚国王路德维希二世的狂热赞助。他在拜罗伊特建造了专门上演自己作品的节日剧院（Festspielhaus），这座剧院至今仍在运营。",
+  "briefEn": "Wagner was born in Leipzig and stands as one of the most controversial geniuses in the history of music. He was not only a composer but also a dramatist, conductor, essayist, and theater architect. His life was filled with drama — political exile, crushing debts, an affair with Liszt's daughter Cosima, and the fanatical patronage of King Ludwig II of Bavaria. He built a festival theater (Festspielhaus) in Bayreuth dedicated exclusively to his own works, and it continues to operate to this day.",
+  "contribution": "瓦格纳创造了「总体艺术品」（Gesamtkunstwerk）的理念——将音乐、戏剧、诗歌、视觉艺术融为一个不可分割的有机整体。他发明了「主导动机」（Leitmotiv）体系——用特定的音乐片段代表人物、事物、情感和概念，通过动机的变形、叠加和交织来推动戏剧发展。他将调性和声推向了极限，《特里斯坦与伊索尔德》的开场和弦被视为调性瓦解的开端。",
+  "contributionEn": "Wagner conceived the idea of the Gesamtkunstwerk — the total work of art — fusing music, drama, poetry, and visual art into a single, inseparable organic whole. He developed the leitmotif system, assigning specific musical fragments to characters, objects, emotions, and ideas, and driving the drama forward through their transformation, superimposition, and interweaving. He pushed tonal harmony to its breaking point; the opening chord of Tristan und Isolde is widely regarded as the moment when traditional tonality began to dissolve.",
+  "style": "瓦格纳的音乐以「无终旋律」（Unendliche Melodie）为特征——音乐不再被分割成独立的咏叹调和宣叙调，而是形成一条无穷无尽的旋律长河。他的管弦乐写作极其丰厚，创造了前所未有的音响世界。他大幅扩大了乐队编制（要求大号中的「瓦格纳大号」就是他的发明），创造了一种近乎催眠般的沉浸式音乐体验。",
+  "styleEn": "Wagner's music is defined by unendliche Melodie — endless melody — in which the music is no longer divided into discrete arias and recitatives but flows as one infinite melodic river. His orchestral writing is extraordinarily rich, conjuring sonic worlds never heard before. He greatly expanded the size of the orchestra (the Wagner tuba was his own invention) and created an almost hypnotic, immersive musical experience.",
+  "famousScores": [
+    { "name": "《尼伯龙根的指环》", "nameEn": "Der Ring des Nibelungen", "desc": "四联剧（莱茵的黄金、女武神、齐格弗里德、众神的黄昏），约15小时", "descEn": "A tetralogy (Das Rheingold, Die Walküre, Siegfried, Götterdämmerung) spanning approximately 15 hours" },
+    { "name": "《特里斯坦与伊索尔德》", "nameEn": "Tristan und Isolde", "desc": "音乐史上最革命性的作品之一，开场和弦改变了和声的历史", "descEn": "One of the most revolutionary works in music history; its opening chord changed the course of harmony" },
+    { "name": "《纽伦堡的名歌手》", "nameEn": "Die Meistersinger von Nurnberg", "desc": "唯一的喜歌剧，对艺术与传统关系的深刻思考", "descEn": "His only comic opera — a profound meditation on the relationship between art and tradition" },
+    { "name": "《帕西法尔》", "nameEn": "Parsifal", "desc": "晚年最后的「舞台神圣节日剧」，充满宗教神秘感", "descEn": "His final 'sacred stage festival play,' steeped in religious mysticism" },
+    { "name": "《女武神的骑行》", "nameEn": "Ride of the Valkyries", "desc": "《指环》第二部的管弦乐名段，影视配乐中引用最多的古典音乐", "descEn": "The iconic orchestral passage from the second Ring opera — the most frequently quoted classical music in film" }
+  ],
+  "influence": "瓦格纳的影响远超音乐领域。他的和声创新直接催生了勋伯格的无调性音乐；他的主导动机技法被好莱坞电影配乐全面继承（约翰·威廉斯、霍华德·肖等）；他的「总体艺术品」理念影响了现代多媒体艺术。尼采、波德莱尔、托马斯·曼等文学家和哲学家都深受其影响。尽管因其反犹主义言论和纳粹对其作品的挪用而备受争议，瓦格纳在音乐史上的革命性地位无可动摇。",
+  "influenceEn": "Wagner's influence extends far beyond music. His harmonic innovations led directly to Schoenberg's atonality; his leitmotif technique was adopted wholesale by Hollywood film composers (John Williams, Howard Shore, and others); and his Gesamtkunstwerk ideal shaped modern multimedia art. Philosophers and writers including Nietzsche, Baudelaire, and Thomas Mann were profoundly affected by his work. Though deeply controversial for his antisemitic writings and the Nazi appropriation of his music, Wagner's revolutionary standing in the history of music remains unshakeable.",
+  "spotifyLink": "https://open.spotify.com/artist/1C1x4MVkql8AiABuTw6DgE"
+}

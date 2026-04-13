@@ -1,0 +1,25 @@
+{
+  "id": "shostakovich",
+  "name": "德米特里·肖斯塔科维奇",
+  "nameEn": "Dmitri Shostakovich",
+  "years": "1906 — 1975",
+  "period": "现代主义",
+  "periodEn": "Modern",
+  "avatar": "D",
+  "brief": "肖斯塔科维奇出生于圣彼得堡，是20世纪最伟大的交响曲作曲家。他在苏联政权下度过了一生，经历了斯大林时期的恐怖——1936年《真理报》发表《混乱代替音乐》社论，公开攻击他的歌剧《姆岑斯克县的麦克白夫人》，他差点沦为大清洗的牺牲品。此后他一直在官方要求的「社会主义现实主义」与个人的艺术良知之间痛苦挣扎。他的音乐被认为充满了暗语和双重含义——表面的胜利凯歌下隐藏着讽刺与绝望。",
+  "briefEn": "Shostakovich was born in St. Petersburg and is widely considered the greatest symphonist of the twentieth century. He spent his entire life under Soviet rule and endured the terrors of the Stalin era — in 1936 Pravda published the editorial \"Muddle Instead of Music,\" a public assault on his opera Lady Macbeth of the Mtsensk District that nearly made him a victim of the Great Purge. From that point on he was caught in an agonizing struggle between the official demand for \"Socialist Realism\" and his own artistic conscience. His music is thought to be saturated with coded messages and double meanings — beneath the surface of triumphant fanfares lurk irony and despair.",
+  "contribution": "肖斯塔科维奇以15部交响曲和15首弦乐四重奏构建了20世纪最宏大的纯器乐叙事体系。他证明了在现代主义浪潮中，传统的调性语言和交响曲形式仍然具有强大的表现力。他的第七交响曲（「列宁格勒」）在二战围城期间的演出成为人类精神不屈的象征。他将政治压迫下的个人悲剧升华为具有普遍意义的音乐史诗。",
+  "contributionEn": "With fifteen symphonies and fifteen string quartets, Shostakovich built the most monumental body of purely instrumental narrative in the twentieth century. He proved that amid the tides of modernism, the traditional tonal language and the symphonic form still possessed immense expressive power. The performance of his Seventh Symphony (\"Leningrad\") during the wartime siege became a symbol of the indomitable human spirit. He transmuted the personal tragedy of political oppression into musical epics of universal significance.",
+  "style": "肖斯塔科维奇的音乐充满了矛盾和张力——宏大的高潮与空虚的独白、粗暴的讽刺与深切的哀恸、官方的乐观与私人的绝望并存于同一部作品中。他的旋律常常带有一种苦涩的抒情性，和声在调性的框架内大量使用尖锐的不协和音。他善于将日常的音乐素材（进行曲、圆舞曲、加洛普舞曲）扭曲变形，使其获得讽刺或恐怖的效果。",
+  "styleEn": "Shostakovich's music is shot through with contradiction and tension — grandiose climaxes and hollow soliloquies, savage satire and profound grief, official optimism and private despair coexist within a single work. His melodies often carry a bitter lyricism, while his harmony bristles with sharp dissonance within a tonal framework. He excelled at distorting everyday musical material — marches, waltzes, galops — twisting the familiar into something sardonic or terrifying.",
+  "famousScores": [
+    { "name": "《第五交响曲》d小调 Op.47", "nameEn": "Symphony No. 5 in D minor, Op. 47", "desc": "「一个苏联艺术家对正当批评的创造性回答」——但真的是吗？", "descEn": "\"A Soviet artist's creative response to just criticism\" — but is it really?" },
+    { "name": "《第七交响曲「列宁格勒」》 Op.60", "nameEn": "Symphony No. 7 \"Leningrad,\" Op. 60", "desc": "围城期间的精神武器，二战最著名的交响曲", "descEn": "A spiritual weapon forged during the siege — the most famous symphony of World War II" },
+    { "name": "《第八弦乐四重奏》c小调 Op.110", "nameEn": "String Quartet No. 8 in C minor, Op. 110", "desc": "「献给法西斯主义和战争的牺牲者」——实则是自传性的遗书", "descEn": "\"Dedicated to the victims of fascism and war\" — in truth, an autobiographical farewell" },
+    { "name": "《第二圆舞曲》", "nameEn": "Waltz No. 2", "desc": "选自《综艺管弦乐组曲》（常被误称为「爵士组曲」），近年来最广为流传的古典旋律之一", "descEn": "From the Suite for Variety Orchestra — one of the most widely recognized classical melodies in recent years" },
+    { "name": "《姆岑斯克县的麦克白夫人》", "nameEn": "Lady Macbeth of the Mtsensk District", "desc": "引发政治风暴的歌剧，音乐的戏剧力量惊人", "descEn": "The opera that triggered a political storm — staggering in its dramatic musical power" }
+  ],
+  "influence": "肖斯塔科维奇证明了即使在极端政治压迫下，艺术良知仍可以通过隐喻和双重编码存活下来。他的交响曲传统由阿尔弗雷德·施尼特克和索菲亚·古拜杜丽娜继承。他的弦乐四重奏影响了英国作曲家布里顿（两人是亲密的朋友）。他关于「艺术家与国家权力」关系的命运至今仍是知识分子讨论的核心话题。",
+  "influenceEn": "Shostakovich demonstrated that even under extreme political oppression, artistic conscience can survive through metaphor and double coding. His symphonic tradition was carried forward by Alfred Schnittke and Sofia Gubaidulina. His string quartets profoundly influenced the English composer Britten, who was a close personal friend. The question his fate raises — the relationship between the artist and state power — remains a central topic of intellectual debate to this day.",
+  "spotifyLink": "https://open.spotify.com/artist/6s1pCNXcbdtQJlsnM1hRIA"
+}

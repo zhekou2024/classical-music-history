@@ -1,0 +1,25 @@
+{
+  "id": "tchaikovsky",
+  "name": "彼得·伊里奇·柴可夫斯基",
+  "nameEn": "Pyotr Ilyich Tchaikovsky",
+  "years": "1840 — 1893",
+  "period": "浪漫主义",
+  "periodEn": "Romantic",
+  "avatar": "T",
+  "brief": "柴可夫斯基出生于俄罗斯沃特金斯克，原本学习法律并在司法部工作，23岁才决定全身投入音乐。他与富孀梅克夫人保持了长达14年的通信与资助关系，两人约定永不见面。他的婚姻（与安东尼娜·米柳科娃）是一场灾难，仅维持了数周便导致他精神崩溃。柴可夫斯基一生与忧郁和孤独为伴，他的死因至今成谜——官方说法是霍乱，但也有自杀的说法。",
+  "briefEn": "Tchaikovsky was born in Votkinsk, Russia, and originally studied law, working in the Ministry of Justice before devoting himself entirely to music at the age of twenty-three. He maintained a fourteen-year correspondence and patronage arrangement with the wealthy widow Nadezhda von Meck, on the condition that they would never meet. His marriage to Antonina Miliukova was a disaster, lasting only weeks before triggering a nervous breakdown. Tchaikovsky was haunted by melancholy and loneliness throughout his life; the cause of his death remains a mystery — the official account cites cholera, though some believe it was suicide.",
+  "contribution": "柴可夫斯基将俄罗斯音乐带上了世界舞台。他创造性地融合了俄罗斯民间音乐的忧郁气质与西欧交响乐的精密结构，形成了独特的俄罗斯交响风格。他几乎凭一己之力将芭蕾音乐从伴奏性质的配乐提升为可以独立欣赏的交响性艺术——《天鹅湖》《睡美人》《胡桃夹子》至今仍是全球上演频率最高的芭蕾舞剧。",
+  "contributionEn": "Tchaikovsky brought Russian music onto the world stage. He creatively fused the melancholic spirit of Russian folk music with the structural precision of Western European symphonic writing, forging a distinctly Russian orchestral style. Almost single-handedly, he elevated ballet music from functional accompaniment to a symphonic art worthy of the concert hall — Swan Lake, The Sleeping Beauty, and The Nutcracker remain the most frequently performed ballets worldwide.",
+  "style": "柴可夫斯基的音乐以极度的情感外露著称——他的旋律直接诉诸人心，毫不掩饰痛苦、狂喜、渴望和绝望。他的管弦乐配器色彩丰富而辉煌，善于用弦乐的长线条旋律与管乐的明亮色彩营造强烈的戏剧效果。他的音乐结构有时被认为不如德奥传统严密，但这恰恰使他的音乐具有一种自由而动人的叙事力量。",
+  "styleEn": "Tchaikovsky's music is distinguished by its unrestrained emotional intensity — his melodies speak directly to the heart, making no effort to conceal anguish, ecstasy, yearning, or despair. His orchestration is vivid and brilliant, adept at pairing sweeping string cantilenas with the bright colors of the winds to create powerful dramatic effect. His formal structures are sometimes considered less rigorous than those of the Austro-German tradition, but this very freedom gives his music a compelling narrative force.",
+  "famousScores": [
+    { "name": "《天鹅湖》 Op.20", "nameEn": "Swan Lake, Op. 20", "desc": "芭蕾音乐的最高成就，白天鹅的主题举世闻名", "descEn": "The pinnacle of ballet music; the White Swan theme is recognized the world over" },
+    { "name": "《第一钢琴协奏曲》降b小调 Op.23", "nameEn": "Piano Concerto No. 1 in B-flat minor, Op. 23", "desc": "开篇的宏伟序奏是古典音乐中最壮丽的时刻之一", "descEn": "Its majestic opening introduction is one of the most thrilling moments in all of classical music" },
+    { "name": "《胡桃夹子》 Op.71", "nameEn": "The Nutcracker, Op. 71", "desc": "圣诞季的必备芭蕾，《花之圆舞曲》家喻户晓", "descEn": "The quintessential Christmas ballet; the Waltz of the Flowers is known to audiences everywhere" },
+    { "name": "《第六交响曲「悲怆」》 Op.74", "nameEn": "Symphony No. 6 'Pathetique,' Op. 74", "desc": "首演后九天柴可夫斯基即去世，绝望中的最后告别", "descEn": "Tchaikovsky died just nine days after its premiere — a final farewell steeped in despair" },
+    { "name": "《D大调小提琴协奏曲》 Op.35", "nameEn": "Violin Concerto in D major, Op. 35", "desc": "与贝多芬、勃拉姆斯并称三大小提琴协奏曲", "descEn": "Ranked alongside Beethoven's and Brahms's as one of the three great violin concertos" }
+  ],
+  "influence": "柴可夫斯基开创的俄罗斯交响传统由拉赫玛尼诺夫、普罗科菲耶夫和肖斯塔科维奇继承和发展。他的芭蕾音乐彻底改变了芭蕾艺术的地位。他的旋律天赋影响了好莱坞电影音乐的黄金时代——约翰·威廉斯等人的管弦乐写作与柴可夫斯基一脉相承。他是古典音乐中最「亲民」的伟大作曲家，入门听众的最佳引路人。",
+  "influenceEn": "The Russian symphonic tradition Tchaikovsky established was carried forward by Rachmaninoff, Prokofiev, and Shostakovich. His ballet scores permanently transformed the status of the art form. His melodic genius influenced the golden age of Hollywood film scoring — the orchestral writing of John Williams and others is directly descended from Tchaikovsky. He remains the most accessible of the great composers in the classical canon, and the finest guide for newcomers to the art.",
+  "spotifyLink": "https://open.spotify.com/artist/3MKCzCnpzw3TjUYs2v7vDA"
+}

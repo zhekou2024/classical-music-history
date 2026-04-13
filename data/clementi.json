@@ -1,0 +1,25 @@
+{
+  "id": "clementi",
+  "name": "穆齐奥·克莱门蒂",
+  "nameEn": "Muzio Clementi",
+  "years": "1752 — 1832",
+  "period": "古典主义",
+  "periodEn": "Classical",
+  "avatar": "C",
+  "brief": "克莱门蒂出生于罗马，14岁时被英国绅士彼得·贝克福德「买下」带到英国培养，从此定居伦敦。他不仅是杰出的钢琴家和作曲家，还是成功的出版商、钢琴制造商和教育家。1781年他在维也纳与莫扎特进行了著名的钢琴竞赛——约瑟夫二世邀请两人当面比试。克莱门蒂晚年功成名就，去世时被葬于威斯敏斯特教堂，与亨德尔和珀塞尔比邻。",
+  "briefEn": "Clementi was born in Rome and at fourteen was effectively 'purchased' by the English gentleman Peter Beckford, who brought him to England for his musical education. He settled in London permanently, becoming not only a distinguished pianist and composer but also a successful music publisher, piano manufacturer, and educator. In 1781 he took part in a famous keyboard contest with Mozart in Vienna, arranged by Emperor Joseph II. Clementi enjoyed great success in his later years and upon his death was buried in Westminster Abbey, alongside Handel and Purcell.",
+  "contribution": "克莱门蒂被称为「钢琴音乐之父」。他的《名手之道》（Gradus ad Parnassum）是钢琴技巧训练的百科全书，至今仍是钢琴教学的基石。他是第一位真正为钢琴（而非大键琴）而写的作曲家，充分发掘了钢琴的力度变化、踏板效果和歌唱性能力。他的钢琴奏鸣曲在某些方面比莫扎特更加大胆前卫。",
+  "contributionEn": "Clementi is known as the 'Father of Piano Music.' His Gradus ad Parnassum is an encyclopedic compendium of piano technique that remains a cornerstone of piano pedagogy to this day. He was the first composer to write truly for the piano rather than the harpsichord, fully exploiting the instrument's dynamic range, pedal capabilities, and singing tone. In certain respects his piano sonatas were bolder and more forward-looking than Mozart's.",
+  "style": "克莱门蒂的早期作品以华丽的技巧性见长——快速的八度、三度和六度平行进行、大幅度跳跃等技法都是他的标志。成熟期的作品则展现出更深邃的音乐思考，和声语汇丰富，结构创新大胆。他的慢乐章具有真挚的歌唱性，快乐章则兼具辉煌的技巧与扎实的音乐内容。",
+  "styleEn": "Clementi's early works are marked by brilliant virtuosity — rapid parallel octaves, thirds, and sixths, along with wide leaps that became his trademarks. His mature compositions reveal deeper musical thought, with a rich harmonic vocabulary and boldly innovative structures. His slow movements possess a genuine singing quality, while his fast movements combine dazzling technique with substantial musical content.",
+  "famousScores": [
+    { "name": "《名手之道》 Gradus ad Parnassum", "nameEn": "Gradus ad Parnassum", "desc": "100首钢琴练习曲，钢琴技巧训练的终极宝典", "descEn": "100 piano etudes — the definitive compendium of keyboard technique" },
+    { "name": "钢琴奏鸣曲 Op.36", "nameEn": "Piano Sonatinas, Op. 36", "desc": "六首小奏鸣曲，几乎每个学琴的孩子都弹过", "descEn": "Six sonatinas that nearly every piano student has played" },
+    { "name": "钢琴奏鸣曲 Op.13 No.6 F小调", "nameEn": "Piano Sonata in F minor, Op. 13 No. 6", "desc": "被贝多芬称赞的深刻之作，预示了浪漫主义", "descEn": "A work of profound depth praised by Beethoven, foreshadowing Romanticism" },
+    { "name": "钢琴奏鸣曲 Op.40 No.2 B小调", "nameEn": "Piano Sonata in B minor, Op. 40 No. 2", "desc": "晚期杰作，结构宏大、情感深沉", "descEn": "A late masterpiece of grand architecture and deep emotional gravity" },
+    { "name": "《降B大调钢琴奏鸣曲》 Op.47 No.2", "nameEn": "Piano Sonata in B-flat major, Op. 47 No. 2", "desc": "中期奏鸣曲，充满实验精神", "descEn": "A middle-period sonata imbued with an adventurous experimental spirit" }
+  ],
+  "influence": "贝多芬对克莱门蒂的钢琴奏鸣曲推崇备至，认为其优于莫扎特的钢琴作品。克莱门蒂的学生包括约翰·菲尔德（夜曲的发明者，直接影响了肖邦）、卡尔·车尔尼（贝多芬的学生、李斯特的老师）等人，通过这些学生，他的钢琴演奏理念传递到了整个浪漫主义时代。他的钢琴制造事业也推动了钢琴乐器的技术革新。",
+  "influenceEn": "Beethoven held Clementi's piano sonatas in the highest regard, considering them superior to Mozart's keyboard works. Clementi's pupils included John Field (inventor of the nocturne, who directly influenced Chopin) and Carl Czerny (Beethoven's student and Liszt's teacher), through whom his pianistic ideals were transmitted to the entire Romantic era. His piano manufacturing enterprise also drove important technological innovations in the instrument itself.",
+  "spotifyLink": "https://open.spotify.com/artist/47e2jUYcqSQ8RL2DVmxmzn"
+}

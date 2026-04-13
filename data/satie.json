@@ -1,0 +1,25 @@
+{
+  "id": "satie",
+  "name": "埃里克·萨蒂",
+  "nameEn": "Erik Satie",
+  "years": "1866 — 1925",
+  "period": "印象主义→现代",
+  "periodEn": "Impressionism → Modern",
+  "avatar": "S",
+  "brief": "萨蒂出生于法国翁弗勒尔，是音乐史上最古怪的先锋派人物之一。他在巴黎音乐学院被认为毫无才华，后来在蒙马特的酒吧「黑猫」担任钢琴师。他是玫瑰十字教团的短暂成员，创立过只有自己一人的「领导与统治耶稣艺术之都主教座堂教会」。他的生活极度简朴——去世后人们在他凌乱的小公寓里发现了数百封未拆的信件。40岁时他重返音乐学院以学生身份学习对位法，令人震惊。",
+  "briefEn": "Born in Honfleur, France, Satie was one of the most eccentric avant-garde figures in music history. Dismissed as talentless at the Paris Conservatoire, he went on to play piano at Le Chat Noir cabaret in Montmartre. He briefly joined the Rosicrucian order and founded a church of which he was the sole member. His life was one of extreme austerity — after his death, hundreds of unopened letters were discovered in his cluttered studio apartment. At the age of forty, he astonished everyone by re-enrolling at the Schola Cantorum as a student to study counterpoint.",
+  "contribution": "萨蒂是20世纪实验音乐的鼻祖。他的「家具音乐」（Musique d'ameublement）概念——设计为不被注意的背景音乐——直接预示了布莱恩·伊诺的环境音乐（Ambient Music）。他用反讽和幽默挑战了音乐的严肃传统，在乐谱上写满了荒诞的演奏指示。他的极简风格比简约主义运动早了半个多世纪。",
+  "contributionEn": "Satie was the godfather of twentieth-century experimental music. His concept of \"furniture music\" (Musique d'ameublement) — sound designed to blend into the background unnoticed — directly foreshadowed Brian Eno's ambient music. He wielded irony and humor as weapons against the solemn traditions of concert music, filling his scores with absurd performance directions. His stripped-down aesthetic anticipated the Minimalist movement by more than half a century.",
+  "style": "萨蒂的音乐以极度简约、静态和反传统著称。他拒绝浪漫主义的情感洪流，追求一种冷静、透明、近乎空白的美学。他的和声使用未解决的七和弦和九和弦的平行进行，创造出一种悬浮不定的氛围。他的音乐没有高潮、没有发展、没有起承转合——只有纯粹的声音存在于时间之中。他也是最早使用重复作为结构原则的作曲家之一。",
+  "styleEn": "Satie's music is defined by radical simplicity, stasis, and defiance of convention. Rejecting the emotional torrent of Romanticism, he pursued a cool, transparent, almost blank aesthetic. His harmony relies on parallel progressions of unresolved seventh and ninth chords, producing a sensation of weightless suspension. There are no climaxes, no development, no dramatic arcs — only pure sound existing in time. He was also among the earliest composers to employ repetition as a structural principle.",
+  "famousScores": [
+    { "name": "《吉姆诺佩迪》三首", "nameEn": "Trois Gymnopédies", "desc": "缓慢、静谧、忧伤的钢琴小品，当代流行文化中最常被引用的古典音乐之一", "descEn": "Slow, serene, and melancholy piano pieces — among the most frequently quoted classical works in contemporary popular culture" },
+    { "name": "《格诺西安舞曲》三首", "nameEn": "Trois Gnossiennes", "desc": "无拍号、无小节线，自由而神秘的冥想音乐", "descEn": "Written without time signatures or bar lines — free-flowing, enigmatic meditations" },
+    { "name": "《游行》 Parade", "nameEn": "Parade", "desc": "与毕加索、科克托合作的芭蕾舞剧，使用了打字机和汽笛", "descEn": "A ballet created in collaboration with Picasso and Cocteau, incorporating typewriters and sirens into the score" },
+    { "name": "《烦恼》 Vexations", "nameEn": "Vexations", "desc": "一页主题重复840次，约18小时，极端重复的先驱", "descEn": "A single page of music repeated 840 times over roughly eighteen hours — a landmark of extreme repetition" },
+    { "name": "《干燥的胚胎》 Embryons desséchés", "nameEn": "Embryons desséchés", "desc": "带有荒诞演奏指示的钢琴组曲", "descEn": "A piano suite peppered with absurd performance instructions" }
+  ],
+  "influence": "萨蒂对20世纪音乐的影响是隐秘而深远的。德彪西从他早期的和弦平行进行中获得灵感；拉威尔称他为「先驱」。法国六人团以他为精神领袖，反对印象主义的朦胧。约翰·凯奇将他视为最重要的先驱——凯奇1963年组织了《烦恼》的首次完整演出。菲利普·格拉斯、史蒂夫·赖希等简约主义者承认萨蒂的开创之功。布莱恩·伊诺的环境音乐直接来源于「家具音乐」的理念。",
+  "influenceEn": "Satie's influence on twentieth-century music is subtle yet far-reaching. Debussy drew inspiration from his early parallel chord voicings; Ravel called him a forerunner. Les Six adopted him as their spiritual leader in their revolt against Impressionist vagueness. John Cage regarded him as the most important precursor — Cage organized the first complete performance of Vexations in 1963. Minimalists such as Philip Glass and Steve Reich have acknowledged Satie's pioneering role. Brian Eno's ambient music traces directly back to the idea of furniture music.",
+  "spotifyLink": "https://open.spotify.com/artist/459INk8vcC0ebEef82WjIK"
+}

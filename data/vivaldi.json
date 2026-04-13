@@ -1,0 +1,25 @@
+{
+  "id": "vivaldi",
+  "name": "安东尼奥·维瓦尔第",
+  "nameEn": "Antonio Vivaldi",
+  "years": "1678 — 1741",
+  "period": "巴洛克",
+  "periodEn": "Baroque",
+  "avatar": "V",
+  "brief": "维瓦尔第出生于威尼斯，因一头红发被称为「红发神父」（Il Prete Rosso）。他自幼受教于父亲（圣马可大教堂小提琴手），25岁被授予神父资格，但因健康原因很少主持弥撒。他在威尼斯的虔诚之家女子孤儿院（Ospedale della Pietà）担任小提琴教师与作曲家长达近40年，将这所孤儿院的乐团打造成全欧洲最出色的合奏团体之一。晚年他前往维也纳寻求发展，却在贫困中去世。",
+  "briefEn": "Vivaldi was born in Venice and nicknamed 'Il Prete Rosso' (The Red Priest) for his fiery red hair. Trained from childhood by his father, a violinist at St. Mark's Basilica, he was ordained at twenty-five but rarely celebrated Mass due to chronic ill health. For nearly four decades he served as violin teacher and composer at the Ospedale della Pieta, a Venetian girls' orphanage whose ensemble he transformed into one of the finest in all of Europe. In his final years he traveled to Vienna seeking new opportunities, only to die there in poverty.",
+  "contribution": "维瓦尔第是协奏曲体裁（特别是独奏协奏曲）的奠基者之一，他确立了快—慢—快三乐章结构，成为此后协奏曲的标准形式。他一生写了超过500首协奏曲，极大地拓展了小提琴的演奏技巧与表现力。巴赫曾改编维瓦尔第的多首协奏曲用于键盘演奏，可见其影响之深。",
+  "contributionEn": "Vivaldi was one of the architects of the concerto, especially the solo concerto, and he established the fast-slow-fast three-movement structure that became the standard form for centuries to come. Over the course of his career he composed more than 500 concertos, vastly expanding the technical and expressive range of the violin. Bach transcribed several of Vivaldi's concertos for keyboard — a testament to the depth of his influence.",
+  "style": "维瓦尔第的音乐充满活力与色彩，节奏明快、旋律鲜明、对比强烈。他善于用音乐描绘自然景象（如《四季》中的鸟鸣、暴风雨、冰雪），是标题音乐的早期先驱。他的慢乐章往往优美深情，快乐章则技巧华丽、充满炫技性。其写作风格直接、热情，具有鲜明的意大利南方气质。",
+  "styleEn": "Vivaldi's music overflows with vitality and color — its rhythms are driving, its melodies vivid, and its contrasts bold. He excelled at painting natural scenes in sound (birdsong, thunderstorms, and ice in The Four Seasons), making him an early pioneer of programmatic music. His slow movements are often tenderly lyrical, while his fast movements dazzle with virtuosic brilliance. His writing is direct, passionate, and unmistakably Italian in temperament.",
+  "famousScores": [
+    { "name": "《四季》 Op.8 No.1–4", "nameEn": "The Four Seasons, Op. 8 Nos. 1-4", "desc": "四首小提琴协奏曲，古典音乐史上最著名的作品之一", "descEn": "Four violin concertos that rank among the most famous works in all of classical music" },
+    { "name": "《荣耀经》 RV 589", "nameEn": "Gloria in D major, RV 589", "desc": "D大调合唱作品，巴洛克宗教音乐的瑰宝", "descEn": "A choral masterpiece in D major and a jewel of Baroque sacred music" },
+    { "name": "《和谐的灵感》 Op.3", "nameEn": "L'estro armonico, Op. 3", "desc": "12首协奏曲集，巴赫曾从中改编多首", "descEn": "A set of twelve concertos, several of which were transcribed by Bach" },
+    { "name": "《b小调四把小提琴协奏曲》 RV 580", "nameEn": "Concerto for Four Violins in B minor, RV 580", "desc": "选自《和谐的灵感》Op.3第10首，巴赫将其改编为四架键盘协奏曲 BWV 1065", "descEn": "No. 10 from L'estro armonico, Op. 3 — Bach arranged it as a concerto for four harpsichords, BWV 1065" },
+    { "name": "《急风暴雨》 RV 253", "nameEn": "La tempesta di mare, RV 253", "desc": "《和声与创意的试验》中的名作，描绘海上风暴", "descEn": "A celebrated work from Il cimento dell'armonia e dell'inventione, depicting a storm at sea" }
+  ],
+  "influence": "维瓦尔第对巴赫的影响最为直接——巴赫通过研究维瓦尔第的协奏曲掌握了意大利风格的精髓。他确立的协奏曲三乐章结构被莫扎特、贝多芬以及此后所有协奏曲作曲家沿用至今。20世纪，随着《四季》的重新流行，维瓦尔第成为巴洛克音乐复兴运动的标志性人物，推动了本真演奏（Historically Informed Performance）的蓬勃发展。",
+  "influenceEn": "Vivaldi's most direct impact was on Bach, who absorbed the essence of the Italian style through close study of Vivaldi's concertos. The three-movement concerto structure Vivaldi established was adopted by Mozart, Beethoven, and every concerto composer since. In the twentieth century, the renewed popularity of The Four Seasons made Vivaldi an iconic figure of the Baroque revival and helped fuel the flourishing movement of historically informed performance.",
+  "spotifyLink": "https://open.spotify.com/artist/2QOIawHpSlOwXDvSqQ9YJR"
+}

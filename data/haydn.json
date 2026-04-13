@@ -1,0 +1,25 @@
+{
+  "id": "haydn",
+  "name": "约瑟夫·海顿",
+  "nameEn": "Joseph Haydn",
+  "years": "1732 — 1809",
+  "period": "古典主义",
+  "periodEn": "Classical",
+  "avatar": "H",
+  "brief": "海顿出生于奥地利东部的罗劳村，家境贫寒却天赋过人。八岁进入维也纳圣斯蒂芬大教堂唱诗班，变声后一度生活困窘，靠教琴和为作曲家波尔波拉伴奏为生。1761年他成为匈牙利埃斯特哈齐亲王的宫廷乐长，在这个「远离世界的实验室」中度过了近三十年，自由地进行音乐实验。晚年两次访问伦敦，获得巨大成功，被称为「海顿爸爸」，是当时全欧洲最受尊敬的作曲家。",
+  "briefEn": "Haydn was born in the village of Rohrau in eastern Austria to a humble family, yet possessed extraordinary talent. At eight he joined the choir of St. Stephen's Cathedral in Vienna; after his voice broke, he struggled to make ends meet by teaching and accompanying the composer Porpora. In 1761 he became Kapellmeister to the Hungarian Prince Esterhazy, spending nearly thirty years in what he called his 'laboratory cut off from the world,' free to experiment with music. His two late visits to London brought him immense acclaim, and he became known affectionately as 'Papa Haydn' — the most respected composer in all of Europe.",
+  "contribution": "海顿被称为「交响曲之父」和「弦乐四重奏之父」。他创作了104部交响曲和68首弦乐四重奏，将这两种体裁从简单的娱乐音乐发展成为严肃的艺术形式。他完善了奏鸣曲式的结构原则——呈示、展开、再现——这成为古典音乐最重要的形式基础。他的主题发展技巧（Thematic Development）影响了此后每一位作曲家。",
+  "contributionEn": "Haydn is hailed as the 'Father of the Symphony' and the 'Father of the String Quartet.' With 104 symphonies and 68 string quartets, he transformed both genres from light entertainment into serious art forms. He refined the structural principles of sonata form — exposition, development, recapitulation — establishing the most important formal foundation in classical music. His technique of thematic development influenced every composer who followed.",
+  "style": "海顿的音乐以智慧、幽默和出人意料的创造力著称。他喜欢在音乐中制造惊喜——假结尾、突然的力度变化（如「惊愕」交响曲中著名的大声和弦）、意想不到的转调。他的慢乐章深情而不煽情，小步舞曲充满乡村式的活力。他善于用简单的主题素材通过巧妙的发展手法构建宏大的音乐结构。",
+  "styleEn": "Haydn's music is celebrated for its wit, humor, and endlessly inventive surprises. He delighted in musical mischief — false endings, sudden dynamic shifts (such as the famous loud chord in the 'Surprise' Symphony), and unexpected modulations. His slow movements are heartfelt without being sentimental, and his minuets brim with rustic vitality. He had a remarkable gift for building grand musical structures from the simplest thematic material through ingenious development.",
+  "famousScores": [
+    { "name": "《第94号交响曲「惊愕」》", "nameEn": "Symphony No. 94 'Surprise'", "desc": "慢乐章中突如其来的大声和弦，音乐幽默的经典", "descEn": "A classic of musical humor, with its famous sudden fortissimo chord in the slow movement" },
+    { "name": "《第104号交响曲「伦敦」》", "nameEn": "Symphony No. 104 'London'", "desc": "最后一部交响曲，古典交响曲的巅峰之作", "descEn": "His final symphony and the crowning achievement of the Classical symphonic tradition" },
+    { "name": "《创世记》 Die Schöpfung", "nameEn": "The Creation (Die Schöpfung)", "desc": "清唱剧巨作，开篇的「混沌」到「光明」是音乐史上最伟大的时刻之一", "descEn": "A monumental oratorio whose opening passage from Chaos to Light ranks among the greatest moments in music history" },
+    { "name": "弦乐四重奏 Op.76 「皇帝」", "nameEn": "String Quartet Op. 76 'Emperor'", "desc": "其中的慢乐章旋律后来成为德国国歌", "descEn": "Its slow-movement theme later became the German national anthem" },
+    { "name": "《小号协奏曲》降E大调", "nameEn": "Trumpet Concerto in E-flat major", "desc": "古典协奏曲文献中的瑰宝，小号独奏的试金石", "descEn": "A gem of the Classical concerto repertoire and the ultimate test piece for solo trumpet" }
+  ],
+  "influence": "海顿对莫扎特和贝多芬的影响是直接而深刻的——莫扎特称他为「最亲爱的朋友和老师」，贝多芬曾短暂师从海顿。他确立的奏鸣曲式和主题发展原则成为此后两百年交响乐创作的基石。弦乐四重奏在他手中成为最精密的室内乐形式，勃拉姆斯、巴托克、肖斯塔科维奇都在这一传统中继续探索。",
+  "influenceEn": "Haydn's influence on Mozart and Beethoven was direct and profound — Mozart called him 'my dearest friend and teacher,' and Beethoven briefly studied under him. The sonata-form principles and thematic development techniques he established became the bedrock of symphonic composition for the next two centuries. Under his hands the string quartet became the most refined form of chamber music, a tradition carried forward by Brahms, Bartok, and Shostakovich.",
+  "spotifyLink": "https://open.spotify.com/artist/656RXuyw7CE0dtjdPgjJV6"
+}

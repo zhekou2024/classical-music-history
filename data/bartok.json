@@ -1,0 +1,25 @@
+{
+  "id": "bartok",
+  "name": "贝拉·巴托克",
+  "nameEn": "Béla Bartók",
+  "years": "1881 — 1945",
+  "period": "现代主义",
+  "periodEn": "Modern",
+  "avatar": "B",
+  "brief": "巴托克出生于匈牙利的纳吉森特米克洛什（今属罗马尼亚），是20世纪最重要的作曲家之一，同时也是民族音乐学的先驱。他与佐尔坦·柯达伊一起深入匈牙利、罗马尼亚、斯洛伐克、土耳其和北非的乡村，用爱迪生蜡筒录音机收集了数千首民歌。二战爆发后他流亡美国，在纽约度过了贫困而孤独的最后五年，1945年因白血病去世。他去世前完成的《第三钢琴协奏曲》是献给妻子迪塔的最后礼物。",
+  "briefEn": "Bartók was born in Nagyszentmiklós, Hungary (now in Romania), and stands among the most important composers of the twentieth century as well as a pioneer of ethnomusicology. Together with Zoltán Kodály, he ventured deep into the villages of Hungary, Romania, Slovakia, Turkey, and North Africa, recording thousands of folk songs on Edison wax cylinders. After the outbreak of World War II he emigrated to the United States and spent his final five years in New York in poverty and isolation, dying of leukemia in 1945. His Third Piano Concerto, completed just before his death, was a final gift to his wife Ditta.",
+  "contribution": "巴托克开创了一条独特的道路——将东欧民间音乐的原始力量与20世纪的先锋技法融为一体。他证明了民间音乐不仅是浪漫主义式的装饰素材，更可以成为重塑音乐语言的根本力量。他发展出一套基于民间音阶和黄金分割比例的独特和声体系，在调性与无调性之间找到了自己的位置。他的六首弦乐四重奏被视为贝多芬之后该体裁最重要的贡献。",
+  "contributionEn": "Bartók forged a unique path by fusing the raw power of Eastern European folk music with the avant-garde techniques of the twentieth century. He proved that folk material was not merely decorative ornamentation in the Romantic manner but could serve as a fundamental force for reinventing musical language itself. He developed a distinctive harmonic system rooted in folk scales and golden-section proportions, finding his own ground between tonality and atonality. His six string quartets are widely regarded as the most important contribution to the genre since Beethoven.",
+  "style": "巴托克的音乐以强悍的节奏驱动力、尖锐的不协和和声和丰富的民间音乐色彩著称。他的节奏借鉴了匈牙利和保加利亚民间音乐中的不规则节拍（如保加利亚节奏），创造出一种粗犷而富于生命力的脉动。他的慢乐章（「夜乐」风格）则展现了另一面——虫鸣鸟叫般的神秘声响，创造出一种大自然的夜间氛围。",
+  "styleEn": "Bartók's music is defined by ferocious rhythmic drive, biting dissonance, and vivid folk-music coloring. His rhythms draw on the irregular meters of Hungarian and Bulgarian folk music (the so-called \"Bulgarian rhythms\"), producing a rugged, vital pulse. His slow movements — in the signature \"night music\" style — reveal another side entirely: mysterious sounds evoking insects and birdsong, conjuring an atmosphere of the natural world after dark.",
+  "famousScores": [
+    { "name": "《为弦乐器、打击乐和钢片琴而作的音乐》", "nameEn": "Music for Strings, Percussion and Celesta", "desc": "20世纪管弦乐文献中最伟大的作品之一", "descEn": "One of the greatest orchestral works of the twentieth century" },
+    { "name": "《管弦乐协奏曲》", "nameEn": "Concerto for Orchestra", "desc": "流亡美国期间的代表作，也是他最常被演奏的管弦乐作品", "descEn": "His signature work from the American exile years and his most frequently performed orchestral piece" },
+    { "name": "六首弦乐四重奏", "nameEn": "Six String Quartets", "desc": "贝多芬之后最重要的弦乐四重奏系列", "descEn": "The most important cycle of string quartets since Beethoven" },
+    { "name": "《小宇宙》 Mikrokosmos", "nameEn": "Mikrokosmos", "desc": "153首钢琴进阶练习曲，20世纪钢琴教学的圣经", "descEn": "153 progressive piano pieces — the bible of twentieth-century piano pedagogy" },
+    { "name": "《蓝胡子公爵的城堡》", "nameEn": "Bluebeard's Castle", "desc": "唯一的歌剧，七扇门后隐藏着人类心灵的暗面", "descEn": "His sole opera — behind seven doors lie the dark recesses of the human soul" }
+  ],
+  "influence": "巴托克的影响遍及全球。他证明了民间音乐可以成为现代音乐革新的引擎，这一理念启发了利盖蒂、卢托斯瓦夫斯基、潘德列茨基等东欧作曲家群体。他的节奏创新影响了梅西安和史蒂夫·赖希。他的《小宇宙》至今仍是钢琴教育的标准教材。在民族音乐学领域，他的田野调查方法论奠定了该学科的科学基础。",
+  "influenceEn": "Bartók's influence spans the globe. His demonstration that folk music could power modernist innovation inspired an entire generation of Eastern European composers, including Ligeti, Lutosławski, and Penderecki. His rhythmic innovations left their mark on Messiaen and Steve Reich. Mikrokosmos remains a standard text in piano education worldwide. In the field of ethnomusicology, his rigorous fieldwork methodology laid the scientific foundations of the discipline.",
+  "spotifyLink": "https://open.spotify.com/artist/5zyNXVd952fWOjkdGHCvPd"
+}

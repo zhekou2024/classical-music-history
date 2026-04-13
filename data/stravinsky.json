@@ -1,0 +1,25 @@
+{
+  "id": "stravinsky",
+  "name": "伊戈尔·斯特拉文斯基",
+  "nameEn": "Igor Stravinsky",
+  "years": "1882 — 1971",
+  "period": "现代主义",
+  "periodEn": "Modern",
+  "avatar": "S",
+  "brief": "斯特拉文斯基出生于圣彼得堡附近的奥拉宁鲍姆，父亲是马林斯基剧院的著名男低音。他师从里姆斯基-科萨科夫，被芭蕾舞剧企业家迪亚基列夫发现后一举成名。他一生经历了三次风格巨变——从俄罗斯原始主义到新古典主义再到序列主义——每一次转变都震惊了音乐界。他先后定居瑞士、法国和美国，1971年在纽约去世，根据遗愿被安葬在威尼斯。",
+  "briefEn": "Stravinsky was born in Oranienbaum, near St. Petersburg; his father was a celebrated bass at the Mariinsky Theatre. He studied with Rimsky-Korsakov and rocketed to fame after being discovered by the ballet impresario Diaghilev. Over his career he underwent three seismic stylistic shifts — from Russian primitivism to Neoclassicism to serialism — each one sending shockwaves through the musical world. He lived successively in Switzerland, France, and the United States, dying in New York in 1971. In accordance with his wishes, he was buried in Venice.",
+  "contribution": "斯特拉文斯基的《春之祭》（1913）是音乐史上最具颠覆性的作品——它的首演在巴黎引发了真正的骚乱。他以前所未有的方式解放了节奏——不规则的重音、频繁变换的拍号、多层节奏的叠加创造了一种原始而暴烈的音乐力量。他的新古典主义时期则证明了现代作曲家可以创造性地回望传统，而不是一味追求「进步」。",
+  "contributionEn": "Stravinsky's The Rite of Spring (1913) is the most revolutionary work in music history — its Paris premiere literally provoked a riot. He liberated rhythm in ways never before imagined: irregular accents, constantly shifting time signatures, and polyrhythmic layering generated a primordial, explosive musical force. His Neoclassical period proved that a modern composer could look creatively backward to tradition rather than pursuing \"progress\" at all costs.",
+  "style": "斯特拉文斯基的风格以「客观性」著称——他拒绝浪漫主义的情感泛滥，追求音乐作为纯粹的「声音的游戏」。他的早期作品以原始节奏的蛮力和管弦乐色彩的辉煌著称；新古典主义时期的作品以冷静的幽默、精练的形式和反讽的距离感为特征；晚年的序列作品则展现出一种稀薄而透明的声音美学。贯穿始终的是他对节奏的天才掌控和对管弦乐音色的无穷想象力。",
+  "styleEn": "Stravinsky's style is defined by its objectivity — he rejected Romantic emotional excess, treating music as a pure \"play of sounds.\" His early works are marked by the brute force of primitive rhythm and brilliant orchestral color; his Neoclassical works by cool wit, lean formal design, and ironic detachment; his late serial pieces by a spare, transparent sonic aesthetic. Throughout every phase, two constants remain: his genius for rhythm and his inexhaustible imagination for orchestral timbre.",
+  "famousScores": [
+    { "name": "《春之祭》 Le Sacre du printemps", "nameEn": "The Rite of Spring", "desc": "1913年首演引发骚乱，节奏革命的圣经", "descEn": "Its 1913 premiere sparked a riot — the sacred text of the rhythmic revolution" },
+    { "name": "《火鸟》", "nameEn": "The Firebird", "desc": "第一部芭蕾舞剧，管弦乐配器的杰出范例", "descEn": "His first ballet and a dazzling showcase of orchestral color" },
+    { "name": "《彼得鲁什卡》", "nameEn": "Petrushka", "desc": "木偶戏芭蕾，双调性的经典运用", "descEn": "A puppet-show ballet and a classic use of bitonality" },
+    { "name": "《诗篇交响曲》", "nameEn": "Symphony of Psalms", "desc": "新古典主义时期的宗教杰作，庄严而超脱", "descEn": "A Neoclassical sacred masterpiece — solemn and transcendent" },
+    { "name": "《士兵的故事》", "nameEn": "L'Histoire du soldat", "desc": "七件乐器与朗诵者，室内乐剧的先驱", "descEn": "Seven instruments and a narrator — a pioneering work of chamber music theater" }
+  ],
+  "influence": "斯特拉文斯基的影响覆盖了20世纪音乐的几乎每一个角落。他的节奏革命影响了梅西安、布列兹和伯恩斯坦；他的新古典主义启发了普朗克、科普兰和普罗科菲耶夫；他的晚期序列作品证明了十二音技法的开放性。他的管弦乐配器被好莱坞作曲家奉为圭臬。他被T.S.艾略特和奥登等文学巨匠视为同时代最重要的艺术家。他与毕加索并称为20世纪最伟大的两位艺术创新者。",
+  "influenceEn": "Stravinsky's influence reaches into virtually every corner of twentieth-century music. His rhythmic revolution shaped Messiaen, Boulez, and Bernstein; his Neoclassicism inspired Poulenc, Copland, and Prokofiev; his late serial works demonstrated the openness of the twelve-tone method. Hollywood composers have treated his orchestration as gospel. Literary giants such as T. S. Eliot and Auden considered him the most important artist of their time. He and Picasso are often cited together as the two greatest artistic innovators of the twentieth century.",
+  "spotifyLink": "https://open.spotify.com/artist/7ie36YytMoKtPiL7tUvmoE"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "glass",
+  "name": "菲利普·格拉斯",
+  "nameEn": "Philip Glass",
+  "years": "1937 —",
+  "period": "现代主义·简约主义",
+  "periodEn": "Minimalism",
+  "avatar": "G",
+  "brief": "格拉斯出生于巴尔的摩的一个犹太家庭，父亲经营唱片店——他从小在店里接触到各种音乐。他在茱莉亚音乐学院学习后，前往巴黎师从传奇教师纳迪亚·布朗热，又在印度与西塔尔大师拉维·香卡的合作中获得了决定性的灵感。回到纽约后，他为了维持创作一度以出租车司机和水管工为生。如今他是在世最常被演出的古典作曲家之一。",
+  "briefEn": "Glass was born into a Jewish family in Baltimore; his father ran a record shop, and the boy grew up immersed in every kind of music. After studying at the Juilliard School he traveled to Paris to work with the legendary teacher Nadia Boulanger, then found decisive inspiration in India through his collaboration with sitar master Ravi Shankar. Back in New York, he drove taxis and worked as a plumber to support his composing. Today he is one of the most frequently performed living classical composers in the world.",
+  "contribution": "格拉斯是简约主义音乐（Minimalism）的三大创始人之一（与史蒂夫·赖希和特里·赖利齐名）。他用重复的音型、缓慢的和声变化和稳定的脉动创造了一种催眠般的音乐体验，彻底挑战了20世纪中叶「复杂至上」的学院派美学。他的「肖像歌剧」三部曲（《海滩上的爱因斯坦》等）重新定义了歌剧这一古老体裁。",
+  "contributionEn": "Glass is one of the three founding figures of Minimalism, alongside Steve Reich and Terry Riley. Through repeating patterns, slowly shifting harmonies, and a steady pulse, he created a hypnotic musical experience that fundamentally challenged the mid-twentieth-century academic orthodoxy of \"complexity above all.\" His Portrait Trilogy of operas (beginning with Einstein on the Beach) redefined the ancient art form of opera itself.",
+  "style": "格拉斯的音乐以「加法结构」（Additive Structure）为核心——一个简短的音乐图案通过不断添加或减少音符而逐渐变形。他的和声语言虽然简洁（以三和弦为主），但和弦的连接方式往往出人意料，创造出一种既熟悉又陌生的声音。他的音乐模糊了古典与流行、东方与西方、高雅与通俗的界限，具有强烈的跨界特质。",
+  "styleEn": "At the heart of Glass's music is additive structure — a brief musical figure that gradually transforms as notes are added or subtracted. His harmonic language is deceptively simple (built largely on triads), yet the way chords connect is often unexpected, producing a sound at once familiar and strange. His music blurs the boundaries between classical and popular, Eastern and Western, highbrow and accessible, giving it a powerfully cross-genre character.",
+  "famousScores": [
+    { "name": "《海滩上的爱因斯坦》", "nameEn": "Einstein on the Beach", "desc": "与罗伯特·威尔逊合作的歌剧，五小时无中场休息，改变了歌剧的定义", "descEn": "An opera created with Robert Wilson — five hours with no intermission, redefining what opera can be" },
+    { "name": "《楚门的世界》配乐", "nameEn": "The Truman Show (score)", "desc": "电影配乐杰作，完美捕捉了虚假世界的不安", "descEn": "A masterful film score that perfectly captures the unease of an artificial world" },
+    { "name": "《时辰》 The Hours", "nameEn": "The Hours (score)", "desc": "奥斯卡提名配乐，为三个时空的弗吉尼亚·伍尔夫织就声音的网", "descEn": "An Oscar-nominated score weaving a sonic web across three timelines linked by Virginia Woolf" },
+    { "name": "《Glassworks》", "nameEn": "Glassworks", "desc": "六乐章的室内乐作品，简约主义的入门首选", "descEn": "A six-movement chamber work — the ideal introduction to Minimalism" },
+    { "name": "《第三交响曲》", "nameEn": "Symphony No. 3", "desc": "弦乐交响曲，简约主义与交响传统的融合", "descEn": "A symphony for strings, merging Minimalist language with the symphonic tradition" }
+  ],
+  "influence": "格拉斯的影响远超古典音乐范畴。他的重复性结构影响了电子音乐（Aphex Twin、Autechre）、后摇滚（Sigur Rós、Mogwai）和影视配乐（汉斯·季默的许多手法源自简约主义）。他证明了严肃音乐可以拥有广泛的听众——他的音乐会吸引大量非古典音乐听众。他与拉维·香卡、大卫·鲍伊等跨界合作，打破了古典音乐的文化藩篱。",
+  "influenceEn": "Glass's influence extends far beyond classical music. His repetitive structures have shaped electronic music (Aphex Twin, Autechre), post-rock (Sigur Ros, Mogwai), and film scoring (many of Hans Zimmer's techniques are rooted in Minimalism). He proved that serious music can command a broad audience — his concerts regularly draw large numbers of listeners with no background in classical music. His cross-genre collaborations with Ravi Shankar, David Bowie, and others broke down the cultural barriers surrounding the concert hall.",
+  "spotifyLink": "https://open.spotify.com/artist/69lxxQvsfAIoQbB20bEPFC"
+}
