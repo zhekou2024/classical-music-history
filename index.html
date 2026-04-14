@@ -233,7 +233,41 @@
       nav { padding: 0 1.2rem; }
       .nav-links { gap: 1rem; }
       .nav-links a { font-size: 0.7rem; }
-      .timeline-strip { display: none; }
+
+      /* ── Mobile vertical timeline ── */
+      .timeline-strip {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 2rem;
+        gap: 0;
+        margin-bottom: 2rem;
+      }
+      /* vertical connecting line */
+      .timeline-strip::before {
+        top: 0; bottom: 0;
+        left: calc(2rem + 5px);
+        right: auto;
+        width: 1px; height: auto;
+        transform: none;
+        background: linear-gradient(180deg, transparent, var(--gold-dk), var(--gold), var(--gold-dk), transparent);
+      }
+      .tl-dot {
+        flex-direction: row;
+        align-items: center;
+        flex: none;
+        padding: 0.7rem 0;
+        gap: 1rem;
+      }
+      .tl-dot-inner { flex-shrink: 0; position: relative; z-index: 1; }
+      /* reset the alternating absolute label positions */
+      .tl-label,
+      .tl-dot:nth-child(odd) .tl-label {
+        position: static;
+        top: auto; bottom: auto;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        line-height: 1.4;
+      }
     }
   </style>
 </head>
