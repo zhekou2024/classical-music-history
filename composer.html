@@ -393,6 +393,7 @@
     <p class="footer-text" style="color: var(--gold-dk);">© 2026 · <span class="zh">西方古典音乐史 · 以音乐之名，致所有热爱聆听的灵魂</span><span class="en">Western Classical Music · In the name of music, to all who love to listen</span></p>
   </footer>
 
+  <script src="js/canonical-spotify.js"></script>
   <script>
   (async function () {
     const params = new URLSearchParams(window.location.search);
@@ -472,7 +473,7 @@
       document.getElementById('c-style').textContent = isEn ? (data.styleEn || data.style) : data.style;
       document.getElementById('c-influence').textContent = isEn ? (data.influenceEn || data.influence) : data.influence;
 
-      // Scores
+      // Scores — Spotify: one canonical track per work (data model), never search
       var composerSearchName = data.nameEn || data.name;
       var $scores = document.getElementById('c-scores');
       $scores.innerHTML = '';
@@ -480,10 +481,7 @@
         data.famousScores.forEach(function (s, idx) {
           var scoreName = typeof s === 'string' ? s : (isEn ? (s.nameEn || s.name) : s.name);
           var scoreDesc = typeof s === 'string' ? '' : (isEn ? (s.descEn || s.desc || '') : (s.desc || ''));
-          var searchQuery = (typeof s !== 'string' && s.spotifyQuery)
-            ? s.spotifyQuery
-            : composerSearchName + ' ' + (typeof s === 'string' ? s : (s.nameEn || s.name));
-          var searchUrl = 'https://open.spotify.com/search/' + encodeURIComponent(searchQuery);
+          var trackUrl = typeof s !== 'string' ? getCanonicalSpotifyTrackUrl(s) : null;
           var hasDetail = typeof s !== 'string' && (s.detail || s.detailEn);
           var li = document.createElement('li');
           li.className = 'score-item';
@@ -492,7 +490,9 @@
             (scoreDesc ? '<div class="score-desc">' + esc(scoreDesc) + '</div>' : '') +
             '<div class="score-actions">' +
               (hasDetail ? '<span class="score-detail-hint" data-idx="' + idx + '">' + (isEn ? '◈ Details' : '◈ 详情') + '</span>' : '') +
-              '<a class="score-spotify-hint" href="' + esc(searchUrl) + '" target="_blank" rel="noopener" style="text-decoration:none;">▶ Spotify</a>' +
+              (trackUrl
+                ? '<a class="score-spotify-hint" href="' + esc(trackUrl) + '" target="_blank" rel="noopener" style="text-decoration:none;">▶ Spotify</a>'
+                : '') +
             '</div>';
           li.style.cursor = hasDetail ? 'pointer' : 'default';
           if (hasDetail) {
@@ -505,10 +505,15 @@
         });
       }
 
-      // Spotify artist search
-      document.getElementById('c-spotify-wrap').style.display = '';
-      var artistSearchUrl = 'https://open.spotify.com/search/' + encodeURIComponent(composerSearchName);
-      document.getElementById('c-spotify').href = artistSearchUrl;
+      // Spotify artist profile (direct link from JSON; not a search)
+      var $spotWrap = document.getElementById('c-spotify-wrap');
+      var $spotBtn = document.getElementById('c-spotify');
+      if (data.spotifyLink && /^https:\/\/open\.spotify\.com\/artist\//.test(data.spotifyLink)) {
+        $spotWrap.style.display = '';
+        $spotBtn.href = data.spotifyLink;
+      } else {
+        $spotWrap.style.display = 'none';
+      }
     }
 
     /* ── Helpers ── */
@@ -545,11 +550,17 @@
       var title = isEn ? (s.nameEn || s.name) : s.name;
       var subtitle = isEn ? (s.descEn || s.desc || '') : (s.desc || '');
       var detail = isEn ? (s.detailEn || s.detail || '') : (s.detail || '');
-      var searchUrl = 'https://open.spotify.com/search/' + encodeURIComponent(composerSearchName + ' ' + (s.nameEn || s.name));
+      var trackUrl = getCanonicalSpotifyTrackUrl(s);
+      var $ms = document.getElementById('modal-spotify');
       document.getElementById('modal-title').textContent = title;
       document.getElementById('modal-subtitle').textContent = subtitle;
       document.getElementById('modal-body').textContent = detail;
-      document.getElementById('modal-spotify').href = searchUrl;
+      if (trackUrl) {
+        $ms.href = trackUrl;
+        $ms.style.display = '';
+      } else {
+        $ms.style.display = 'none';
+      }
       $overlay.classList.add('active');
       document.body.style.overflow = 'hidden';
     }
