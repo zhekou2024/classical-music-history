@@ -113,29 +113,47 @@
     .score-item {
       background: var(--card); border: 1px solid rgba(201,168,76,0.1);
       border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 0.8rem;
-      transition: border-color 0.25s;
+      cursor: pointer; transition: border-color 0.25s, background 0.25s;
     }
-    .score-item:hover { border-color: rgba(201,168,76,0.3); transform: translateX(4px); }
-    .score-link { display: block; text-decoration: none; color: inherit; }
+    .score-item:hover { border-color: rgba(201,168,76,0.35); background: rgba(255,255,255,0.03); }
+    .score-item.expanded { border-color: rgba(201,168,76,0.4); background: rgba(255,255,255,0.04); }
     .score-name {
       font-family: var(--serif); font-size: 1.05rem; color: var(--text);
       margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
     }
-    .score-spotify-hint {
-      font-family: var(--sans); font-size: 0.6rem; letter-spacing: 0.08em;
-      color: #1DB954; opacity: 0; transition: opacity 0.25s;
-      background: rgba(29,185,84,0.1); padding: 0.2em 0.5em; border-radius: 4px;
+    .score-chevron {
+      margin-left: auto; flex-shrink: 0;
+      color: var(--gold-dk); font-size: 0.75rem;
+      transition: transform 0.3s ease;
     }
-    .score-item:hover .score-spotify-hint { opacity: 1; }
+    .score-item.expanded .score-chevron { transform: rotate(180deg); color: var(--gold); }
     .score-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
-    .score-detail-hint {
-      font-family: var(--sans); font-size: 0.6rem; letter-spacing: 0.08em;
-      color: var(--gold); opacity: 0; transition: opacity 0.25s;
-      background: rgba(201,168,76,0.1); padding: 0.2em 0.5em; border-radius: 4px;
-      cursor: pointer;
+    /* expandable detail body */
+    .score-detail-body {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.35s ease;
     }
-    .score-item:hover .score-detail-hint { opacity: 1; }
-    .score-actions { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; }
+    .score-item.expanded .score-detail-body { grid-template-rows: 1fr; }
+    .score-detail-inner {
+      overflow: hidden;
+      min-height: 0;
+    }
+    .score-detail-text {
+      margin-top: 0.85rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid rgba(201,168,76,0.12);
+      font-size: 0.88rem; color: #9a958e; line-height: 1.9;
+      white-space: pre-line;
+    }
+    .score-spotify-inline {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      margin-top: 1rem; padding: 0.42em 1.1em; border-radius: 999px;
+      background: #1DB954; color: #fff; font-size: 0.72rem;
+      font-weight: 700; letter-spacing: 0.04em;
+      text-decoration: none; transition: background 0.2s, transform 0.15s;
+    }
+    .score-spotify-inline:hover { background: #1ed760; color: #fff; transform: translateY(-1px); }
 
     /* ── Modal ── */
     .modal-overlay {
@@ -479,25 +497,35 @@
       var $scores = document.getElementById('c-scores');
       $scores.innerHTML = '';
       if (data.famousScores && data.famousScores.length) {
-        data.famousScores.forEach(function (s, idx) {
-          var scoreName = typeof s === 'string' ? s : (isEn ? (s.nameEn || s.name) : s.name);
-          var scoreDesc = typeof s === 'string' ? '' : (isEn ? (s.descEn || s.desc || '') : (s.desc || ''));
-          var searchUrl = 'https://open.spotify.com/search/' + encodeURIComponent(composerSearchName + ' ' + (typeof s === 'string' ? s : (s.nameEn || s.name)));
-          var hasDetail = typeof s !== 'string' && (s.detail || s.detailEn);
+        data.famousScores.forEach(function (s) {
+          var scoreName   = typeof s === 'string' ? s : (isEn ? (s.nameEn || s.name) : s.name);
+          var scoreDesc   = typeof s === 'string' ? '' : (isEn ? (s.descEn  || s.desc  || '') : (s.desc  || ''));
+          var scoreDetail = typeof s === 'string' ? '' : (isEn ? (s.detailEn || s.detail || '') : (s.detail || ''));
+          var searchName  = typeof s === 'string' ? s : (s.nameEn || s.name);
+          var searchUrl   = 'https://open.spotify.com/search/' + encodeURIComponent(composerSearchName + ' ' + searchName);
+
           var li = document.createElement('li');
           li.className = 'score-item';
           li.innerHTML =
-            '<div class="score-name">' + esc(scoreName) + '</div>' +
+            '<div class="score-name">' + esc(scoreName) +
+              (scoreDetail ? '<span class="score-chevron">▼</span>' : '') +
+            '</div>' +
             (scoreDesc ? '<div class="score-desc">' + esc(scoreDesc) + '</div>' : '') +
-            '<div class="score-actions">' +
-              (hasDetail ? '<span class="score-detail-hint" data-idx="' + idx + '">' + (isEn ? '◈ Details' : '◈ 详情') + '</span>' : '') +
-              '<a class="score-spotify-hint" href="' + esc(searchUrl) + '" target="_blank" rel="noopener" style="opacity:1;text-decoration:none;">▶ Spotify</a>' +
-            '</div>';
-          li.style.cursor = hasDetail ? 'pointer' : 'default';
-          if (hasDetail) {
+            (scoreDetail ?
+              '<div class="score-detail-body"><div class="score-detail-inner">' +
+                '<div class="score-detail-text">' + esc(scoreDetail) + '</div>' +
+                '<a class="score-spotify-inline" href="' + esc(searchUrl) + '" target="_blank" rel="noopener">▶ Spotify</a>' +
+              '</div></div>'
+            :
+              '<div style="margin-top:0.5rem;">' +
+                '<a class="score-spotify-inline" href="' + esc(searchUrl) + '" target="_blank" rel="noopener">▶ Spotify</a>' +
+              '</div>'
+            );
+
+          if (scoreDetail) {
             li.addEventListener('click', function(e) {
-              if (e.target.closest('a')) return; // let Spotify link work
-              openModal(s, composerSearchName, isEn);
+              if (e.target.closest('a')) return;
+              li.classList.toggle('expanded');
             });
           }
           $scores.appendChild(li);
